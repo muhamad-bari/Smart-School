@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smart School - Documentation</title>  
+    <meta name="description" content="Smart School Ver 4.2.0 - Documentation">
+    <meta name="author" content="QDOCS">
+    <meta name="copyright" content="QDOCS"> 
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="assets/images/s-favicon.png" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+
+    <!-- Ionicons -->
+   
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/docmain.min.css">
+    <link rel="stylesheet" href="assets/css/_all-skins.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body class="skin-blue fixed" data-spy="scroll" data-target="#scrollspy">
+    <div class="wrapper">
+      <header class="main-header">
+       <a href="http://smart-school.in" target="_blank" class="logo">
+          <span class="logo-lg"><img src="assets/images/logo.png" alt="Smart School"></span>
+        </a>
+       <nav class="navbar navbar-static-top" role="navigation">
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="navbar-custom-menu" style="padding: 10px;">
+            <a href="http://qdocs.in/" target="_blank"><img src="assets/images/qdocs-square-logo.png" alt="img" class="" height="30"></a>
+          </div>
+        </nav>
+      </header>
+     
+      <aside class="main-sidebar">
+        <div class="sidebar single-page-nav" id="scrollspy">
+          <ul class="nav sidebar-menu">       
+            <li class="active page-scroll"><a href="#documenter_cover">Start</a></li>
+            <li class="page-scroll"><a href="#sysreq">System Requirements</a></li>
+            <li class="page-scroll"><a href="#install">Smart School Installation</a></li>
+            <li class="page-scroll"><a href="#update">Updating Smart School</a></li>
+            <li class="page-scroll"><a href="#using">Using Smart School</a></li>
+             <li id="adminpanel">
+              <a href="#"><i class="fa fa-angle-left pull-right"></i> Admin Panel</a>
+              <ul class="nav treeview-menu">
+                  <li class="page-scroll"><a href="#frontoffice"><i class="fa fa-angle-double-right"></i>Front Office</a></li>
+                  <li class="page-scroll"><a href="#stuinf"><i class="fa fa-angle-double-right"></i>Student Information</a></li>
+                  <li class="page-scroll"><a href="#feescollect"><i class="fa fa-angle-double-right"></i>Fees Collection</a></li>
+				  <li class="page-scroll"><a href="#income"><i class="fa fa-angle-double-right"></i>Income</a></li>
+                  <li class="page-scroll"><a href="#expenses"><i class="fa fa-angle-double-right"></i>Expenses</a></li>
+                  <li class="page-scroll"><a href="#attendance"><i class="fa fa-angle-double-right"></i>Attendance</a></li>
+                  <li class="page-scroll"><a href="#examinations"><i class="fa fa-angle-double-right"></i>Examinations</a></li>
+                  <li class="page-scroll"><a href="#academics"><i class="fa fa-angle-double-right"></i>Academics</a></li>
+                  <li class="page-scroll"><a href="#hr"><i class="fa fa-angle-double-right"></i>Human Resource</a></li>                  
+                  <li class="page-scroll"><a href="#communicate"><i class="fa fa-angle-double-right"></i>Communicate</a></li>
+                  <li class="page-scroll"><a href="#downcent"><i class="fa fa-angle-double-right"></i>Download Center</a></li>
+                  <li class="page-scroll"><a href="#homework"><i class="fa fa-angle-double-right"></i>Homework</a></li>                  
+                  <li class="page-scroll"><a href="#library"><i class="fa fa-angle-double-right"></i>Library</a></li>
+                  <li class="page-scroll"><a href="#inventory"><i class="fa fa-angle-double-right"></i>Inventory</a></li>
+				  <li class="page-scroll"><a href="#transport"><i class="fa fa-angle-double-right"></i>Transport</a></li>
+                  <li class="page-scroll"><a href="#hostel"><i class="fa fa-angle-double-right"></i>Hostel</a></li>
+                  <li class="page-scroll"><a href="#cert"><i class="fa fa-angle-double-right"></i>Certificate</a></li>
+                  <li class="page-scroll"><a href="#frontcms"><i class="fa fa-angle-double-right"></i>Front CMS</a></li>                  
+                  <li class="page-scroll"><a href="#reports"><i class="fa fa-angle-double-right"></i>Reports</a></li>
+                  <li class="page-scroll"><a href="#calendar"><i class="fa fa-angle-double-right"></i>Calendar & ToDo List</a></li>
+                  <li class="page-scroll"><a href="#syssettings"><i class="fa fa-angle-double-right"></i>System Settings</a></li>                
+              </ul>
+            </li>
+            <li class="page-scroll"><a href="#studentpanel">Student Panel</a></li>
+            <li class="page-scroll"><a href="#parentpanel">Parent Panel</a></li>
+			<li class="page-scroll"><a href="#license">License</a></li>
+            <li class="page-scroll"><a href="#changelog">Changelog</a></li>   
+            <li class="page-scroll"><a href="#freesupp">Free Help & Support</a></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <div class="content body">
+
+<section id="documenter_cover">
+<h1 class="page-header">Smart School : School Management System</h1>
+<h5 style="margin-top: 0px;font-style: italic;">The only software need to run your school Smarter.</h5>
+<!--<h2 QDOCS</h2>-->
+<h5><span style="font-size:14px;">By</span><br>
+<a href="http://qdocs.in" target="_blank"><img src="assets/images/qdocs.png" alt="img" class="" width="150"  /></a></h5>
+<hr> 
+<p>
+                    Ver. 4.2.0<br/>
+                    Email: <a href="mailto:support@qdocs.in">support@qdocs.in</a><br/>
+                    Website: <a href="http://smart-school.in" target="_blank">smart-school.in</a>
+                </p>
+                <hr>
+                <p>We would like to thank you for purchasing <b>Smart School</b>! We are very pleased you have chosen <b>Smart School</b> for your institution, you will not be disappointed! Before you get started, please be sure to always check out these documentation files. We outline all kinds of good information, and provide you with all the details you need to use <b>Smart School</b>. <b>Smart School</b> can be used with any school, college, university, training/coaching institute.
+
+  <p>If you are unable to find your answer here in our documentation, watch our Video Tutorials, you can also visit our Help & Support. Chances are your question or issue have been brought up already and the answer is waiting to be found. If you are unable to find it anywhere, then please go our Support section and open a new Support Ticket with all the details we need. Please be sure to include your site URL as well. Thank you, we hope you enjoy using <b>Smart School</b>!</p>
+
+<a href="https://www.youtube.com/playlist?list=PLRyqKhLrbTa04IOguu-mjojT5sFbInUQa" class="btn btn-primary button-primary">Video Tutorials</a>     
+<a href="http://smart-school.in" class="btn btn-primary button-primary button-primary2">Help & Support</a>
+</section>
+
+
+<!-- ============================================================= -->
+
+<section id="sysreq">
+<h1 class="page-header">System Requirements</h1><hr>
+   <P>To installing <b>Smart School</b>, Your web server must be running <b>PHP 5.4 or higher</b> and <b>Mysql 5.1 or higher</b>. We have tested it with Windows, Mac and Linux but for optimum performance we will recommend to use <b>Linux with Apache webserver</b>. Below are a list of items you should ensure your host can comply with.</P>
+                <ul>
+                    <li>PHP 5.4+</li>
+                    <li>MYSQL 5.1+</li>
+                    <li>mod_rewrite Apache</li>               
+                    <li>MBString Extension</li>
+                    <li>MYSQLi Extension</li>
+                    <li>Zip Extension</li>
+                    <li>CURL Extension (recommended)</li>
+                    * In most hosting accounts, these extensions are enabled by default. But you should check with your hosting provider.
+                </ul>
+                <P>After installation <b>Smart School</b> to work properly, you must make few directories/files writable. Below are a list of directories/files you should ensure that have write permissions.</P>
+                <ul style="word-wrap: break-word;">
+					<li>installation_dir/application/config/config.php</li>
+                  	<li>installation_dir/application/config/database.php</li>
+					<li>installation_dir/application/config/autoload.php</li>
+					<li>installation_dir/application/config/license.php</li>
+                    <li>installation_dir/temp</li>
+                    <li>installation_dir/backup</li>
+                    <li>installation_dir/backup/database_backup</li>
+                    <li>installation_dir/backup/temp_uploaded</li>
+                    <li>installation_dir/uploads</li>
+                    <li>installation_dir/uploads/&lt;all_its_sub_directories&gt;</li>                   					
+                </ul>
+</section>
+<!--end Requirements-->
+
+
+<!-- ============================================================= -->
+
+<!--Installation-->
+<section id="install">
+<h1 class="page-header">Smart School Installation</h1><hr>
+  <p>Smart School comes with a simple automatic installer.<p/>
+  <h4>Check YouTube video tutorials for easy installation</h4>
+ <ul>
+ <li><a href="https://youtu.be/M9Ho-1XrMfU" target="_blank">Smart School installation on CPanel</a></li>
+ <li><a href="https://youtu.be/5tOIAOsqg-c" target="_blank">Smart School installation on XAMPP</a></li>
+ <li><a href="https://youtu.be/5ozPkRYMDRM" target="_blank">Smart School installation on WAMP</a></li> 
+ </ul>
+                <h4>- Configure database connection</h4>
+                <p>You need to have previously setup database from the cPanel or your hosting provider.<br/>
+                    Here is a good tutorial <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9363/2180/how-to-create-and-maintain-mysql-databases-in-cpanel" target="_blank">how to setup MySQL database in cPanel</a> if you are not familiar with this.<p/>
+                <ol>
+                    <li>Login to cPanel by accessing www.yourdomain.com/cpanel and navigate go MySQL Databases.</li>
+                    <li>Create database first.</li>
+                    <li>Create user and setup your password.</li>
+                    <li>Add the user to database by selecting the database and the username.</li>
+                </ol>
+                <br/>
+                Make sure you have checked All privileged when adding the user to database.
+                <h4>- Install</h4>
+                <p>Find the folder <b>smart_school_src</b> in your downloaded package from Codecanyon. This folder contains complete source code files need to install Smart School. Upload all the files under this folder to your hosting folder and navigate to your url <b>http://yourdomain.com/</b> . After hitting url <b>http://yourdomain.com/</b> system redirects to <b>http://yourdomain.com/install/start</b> to start installer.<p/>
+                <p>You will need to pass the server requirements in order to install Smart School.<p/>
+                <p><img src="assets/images/install1.png" alt="img" class="img-responsive" /></p>
+                <p>Click Database Setup and populate the fields according to your database setup.</p>
+                <p>If any errors found while connecting you will be notified otherwise you should see the credentials screen</p>
+                <p><img src="assets/images/install2.png" alt="img" class="img-responsive"/></p>
+                <p><b>Enter Admin Email and Password for your Admin Panel Login</b></p>
+                <p><img src="assets/images/install3.png" alt="img" class="img-responsive" /></p>
+                <p>Great! You have successfully installed Smart School. Click on "Delete Install Directory and Login" button to go to Admin Login page. </p>
+                <p><img src="assets/images/install4.png" alt="img" class="img-responsive" /></p>
+                <p>If you need help for installation, do not hesitate to open <a href="http://support.qdocs.in">Support Ticket</a></p>
+                <p>After successful installation you need to setup few things about your school. Smart School comes with some predefined data but you still need to configure them as per your school.</p>
+</section>
+
+
+<!--Update-->
+<section id="update">
+<h1 class="page-header">Upgrading from Previous Version</h1><hr>
+  <h4>Upgrading from Version 4.1.0 to Version 4.2.0</h4>
+                <p>If you are already using Smart School version 4.1.0 then you should upgrade your Smart School to current version 4.2.0 to get all the new features and fixes if any. The upgrade is pretty simple just follow the steps below and you will get the newest version of Smart School.</p>
+                <p>Check the <a href="#changelog">changelog</a> for changes and bug fixed in this version.</p>
+                
+                <p class="note" style="box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);">
+                    <b>Always backup your all files and database before making an upgrade</b>
+                </p>
+
+                <ol>
+					<li>Create backup of all files you have made changes or customized for your features.</li>
+					<li>In your Smart School installation folder delete all files present under <b>/application/migrations</b> folder.</li>
+                    <li>Download the latest Smart School version 4.2.0 from CodeCanyon. Now extract and open <b>update/step-1</b> folder.</li>
+                    <li>Copy all the content under <b>step-1</b> folder and overwrite to under your Smart School installation folder.</li>
+                    <li>After that go to&nbsp;<span style=
+                                                    "box-sizing: border-box; font-weight: 700;">http://yourdomain.com/migrate</span> and if upgrade is successful a message will be shown that "Database updated successfully".</li>
+                    <li>After upgrade copy all the files under <b>step-2</b> folder and overwrite to under your Smart School installation folder.</li>
+                    <li>Check all directories permission required in <a href="#sysreq">System Requirements</a> section.</li>
+					<li><strong>Clear the cache of your browser</strong> and login to Admin Panel.</li>					
+					<li>If you are using your own language (other than English), make sure to add key phrases in langaguge files described in Languages section <a href="#syssettings">System Settings > Languages</a>.</li>
+                </ol>
+                <p>If you experience any trouble while updating, open <a target="_blank"href="http://support.qdocs.in">support ticket</a> and we will be happy to assist you.</p>
+					
+</section>
+<!--end Update-->
+
+<!--Using Smart School-->
+<section id="using">
+<h1 class="page-header">Using Smart School</h1><hr>
+<h4>Smart School - General Overview</h4>
+    <P>Before start using Smart School consider a general scenario of typical school of class 1 to 12th, each classes have sections like Section A, Section B. There will various subjects for different classes like some subjects are theory and some are practical. Exams are created using these subjects and classes. Students enter in classes by new admission or promoted by their previous class after successful passing of previous class. During course of student we will charge fees to students and collecting them at monthly or one time basis. We like to record attendance of our students. Our school may be providing transport facility to student. Our school have library for students have to maintain books inventory. Our school have hostels and providing hostel facility to our students. Obviously our school has teachers to teach and manage students. We like to communicate our teachers, students and parents. We like to record all the expenses done in our school like miscellaneous bills, salary payments etc. After everything we like to analyze various reports based on our school.</P>
+  <P>Apart from above we also like to provide access to our Smart School to other users like Teachers, Accountants, Librarians, Students and their Parent. For these Smart School have 8 inbuilt user's  roles- <strong>SuperAdmin</strong>, <b>Admin</b>, <b>Teacher</b>, <b>Accountant</b>, <b>Librarian, Receptionist</b>, <b>Student</b> and <b>Parent</b>. Virtually you can create unlimited number of user roles for staff members.</P>
+</section>
+<!--end Using Smart School-->
+
+<!--Admin Panel-->
+<section id="adminpanel">
+<h1 class="page-header">Admin Panel</h1><hr>
+  <P>Login to Admin Panel through URL - <strong>http://yourdomain/site/login</strong></P>
+
+                <p><img src="assets/images/admin-login.png" alt="img" class="img-responsive"/></p>
+                <p>After successful login you will reach to Admin Dashboard. Below you can find navigational overview of user screen.</p>
+                <p><img src="assets/images/admin-dashboard.png" alt="img" class="img-responsive"/></p>
+                <h4>Admin Panel consist 21 modules listed below -</h4>
+                <ol>
+                <li><strong>Front Office</strong> - for all reception/front office related activities like enquiries, calls, visitors, postal receive/dispatch </li>
+                    <li><b>Student Information</b> - for all the information related to student like student search, profile, student admission, student history</li>
+                    <li><b>Fees Collection</b> - for all the details related to student fees collection, fees master creation, fees dues, fees reports</li>
+					<li><b>Income</b> - for all the income other than fees collection can be manage here like add income, search income, income head</li>
+                    <li><b>Expenses</b> - for all the expenses related to school can be manage here like add expenses, search expenses, expense head</li>
+                    <li><b>Attendance</b> - for managing student attendance and attendance report</li>
+                    <li><b>Examinations</b> - for managing all the exams conducted by school like create exam, schedule exam, exam marks entry, marks grade</li>
+                    <li><b>Academics</b> - for managing all the parameters / master data required to run school like classes, sections, subjects, assign teachers, class timetable, promote student to upper class</li>
+                    <li><strong>Human Resource</strong> - for all the information related to staff members can be manage here like staff search, profile, attendance, payroll, leaves</li>
+                    <li><b>Communicate</b> - it works like a notice board basically a messaging system for communication to students, parents and teachers</li>
+                  <li><b>Download Center</b> - for managing downloadable documents like assignments, study material, syllabus and other documents need to distribute students and teachers</li>
+                    <li><strong>Homework</strong> - teachers can give homework here and further evaluate them</li>
+                  <li><b>Library</b> - all the books in your library can be manage here</li>
+					<li><b>Inventory</b> - manage all the assets of your school with stocks and store under inventory module</li>
+                    <li><b>Transport</b> - for managing transportation service like routes and their fares</li>
+                    <li><b>Hostel</b> - for managing hostels, hostel rooms and their fares</li>
+                    <li><strong>Certificate</strong> - design and generate student certificate and ID Card here</li>
+                    <li><strong>Front CMS</strong> - manage front public site of Smart School here by creating pages, menus, events, gallery, news</li>
+                    
+                  <li><b>Reports</b> - all the various reports related to different modules can be found here</li>
+                    <li><b>System Settings</b> - configure Smart School here for different settings like school, sessions, admin password, SMS, Paypal, backup / restore, languages</li>
+                    <li><strong>Calendar & ToDo List</strong> - track and manage all daily/monthly activities and create your task in todo list</li>
+                </ol> 
+                <h5>To understand how Smart School works first we need to configure and setup it for our school. In this whole documentation we will consider our sample school which is Mount Carmel School.</h5>  
+                <h4>Steps to setup your school -</h4>
+                <ol>
+                    <li>In the Admin panel go to <b>System Settings > General Setting</b> in upper right side click on <b>Edit</b> button to update your school data.
+                        <p><img src="assets/images/system-general-setting.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li>Update your <b>School Name</b>, <b>Address</b>, <b>Phone</b>, <b>Email</b>, <b>School Code</b> (School Code is your school affiliation / accreditation no), <b>Session</b> (current running Academic Session for the school), <b>Session Start Month</b>, <strong>Teacher Restricted Mode</strong> (for teachers can see only their allotted class student data as Class Teacher or as Subject Teacher), <b>Language</b> (language in which you want to run your Smart School), <b>Language RTL Text Mode</b> (for Arabian side languages), <b>Timezone</b>, <b>Date Format</b>, <b>Currency</b> (<a href="https://en.wikipedia.org/wiki/ISO_4217#Active_codes" target="_blank">ISO standard 3 digit currency code</a>), <b>Currency Symbol</b>, <b>Fees Due Days</b> (used in Fees Carry Forward), <b>Mobile App Api URL</b> (used for Smart School mobile app api url), <b>Mobile App Primary Color Code</b> (used for mobile app primary color) and <b>Mobile App Secondary Color Code</b> (used for mobile app secondary color) now click on <b>Save</b> button to update record.</li>
+                    <li>For updating your school logo go to <b>System Settings > General Setting</b> in lower left side click on <b>Edit Logo</b> button. Now drag and drop or select your logo file. By clicking on <strong>Edit Mobile App  Logo</strong> you can set logo for mobile app.</li>
+                    <li>Update your school logo by choosing your school logo file (it is recommended for logo to use .png image with transparent or white background and around 200px x 200px in size) now click on <b>Edit</b> button to update logo image.</li>
+                    <li>For automated SMS messaging add any one of available SMS Gateway with the required details from <b>System Settings > SMS Setting</b>.</li>
+                    <li>To enabling online payment in <b>Parent Panel</b> and <strong>Student Panel</strong> update your payment gateway account details for this, go to <b>System Settings > Payment Methods</b> select your appropriate payment gateway and add you payment gateway account details then click on save button and enable it from right side box.</li>
+                    <li>At this point we have completed basic setup of our school. Now we will add our academics in Smart School like Classes, Sections, Subjects, Teachers.</li>
+                    <li>For adding classes go to <b>Academics > Classes</b>, before adding classes first add Sections from <b>Academics > Sections</b>. Select Sections comes under a Class when you adding a Class. Classes can be add from left side <b>Add Class</b> form and added classes can be see right side <b>Class List</b>. Add all classes running in your school here.
+                        <p><img src="assets/images/academics-class.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li>For adding sections go to <b>Academics > Sections</b>, Sections can be add from left side <b>Add Section</b> form and added section can be see right side <b>Section List</b>. Add all section name used in your school here e.g. Class 1 has 3 sections A, B, C and Class 2 has only A, B sections then we will add 3 sections A, B, C here. After adding sections, select section comes in a Class when you adding Classes.</li>
+                    <li>For adding Teachers go to <b>Human Resource > Staff Directory</b>, Teachers can be add from top right corner <b>Add Staff</b> button. At this page you can add any staff by selecting its role. If we are creating teacher then we should select Teacher as role and designation as role.</li>
+                    <li>For adding subjects go to <b>Academics > Subjects</b>, Subjects can be add from left side <b>Add Subject</b> form and added subjects can be see right side <b>Subject List</b>. Add all subjects including theory and practical in your school here. Subjects will be assign to their classes in next step.</li>
+                    <li>For assigning subjects to their classes go to <b>Academics > Assign Subjects</b> select <b>Class 6</b> and section <b>A</b> then click on <b>Search</b> button, now below a row has been open for selecting subject and teacher for this subject. For adding more rows click on <b>Add</b> button. After selecting all subjects and their concerning teachers click on <b>Save</b> button in present right bottom to save all subjects and teachers under this class-section.
+                        <p><img src="assets/images/academics-sssign-subjects.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li>For assigning Class Teacher on Classes go to <b>Academics > Assign Class Teachers</b> select <b>Class 6</b> and section <b>A</b> then check on <b>Teachers</b> you want to assign as Class Teacher.
+                        <p><img src="assets/images/academics-assign-class-teacher.png" alt="img" class="img-responsive"/></p>
+                    </li>  
+                  <li>Great! you have completed your <b>Smart School</b> setup. Now further we will understand working of all the modules 1 by 1 in detail.</li>
+                </ol> 
+</section>
+<!--end Admin Panel-->
+
+<!--Front Office-->
+<section id="frontoffice"><h1 class="page-header">Front Office</h1><hr>
+<p>This module has 7 sections -</p>
+                <ol>
+                    <li>Admission Enquiry</li>
+                    <li>Visitor Book</li>
+                    <li>Phone call Log</li>
+					<li>Postal Dispatch</li>
+					<li>Postal Receive</li>
+					<li>Complain</li>
+					<li>Setup Front Office</li>					
+                </ol>
+                <p>First we will <strong>Setup Front Office</strong> then we will manage student
+                    <strong>Admission Enquiry</strong>, daily <strong>Visitors Book, Phone Calls, Postal and Complain</strong>.</p>
+                <ul>
+                    <li><strong>Setup Front Office</strong>- Go to <strong>Front Office > Setup Front Office</strong> here you will add <strong>Purpose</strong>, <strong>Complain Type</strong>, <strong>Source</strong>, <strong>Reference</strong> data which will be use in different sections of Front Office.
+					
+					Enter <strong>Purpose</strong> then 
+                        <strong>Description</strong> and click on 
+					
+                        <strong>Save</strong> button. All Purpose can be see right side of this page.
+                        <p><img src="assets/images/front-setup-front-office.png" alt="img" class="img-responsive"/></p>
+						Follow same procedure to make entries for <strong>Complain Type</strong>, <strong>Source</strong> and <strong>Reference</strong>.
+                    </li>    
+                    <li><strong>Admission Enquiry</strong>- Admission Enquiry feature is dedicated for managing all student admission related leads and enquiries. Its basically a lead management for student admissions. Go to <strong>Front Office > Admission Enquiry</strong> 
+					Here you can see all active Admission Enquiry. Admission Enquiries that have passed their next follow up dates is marked as red. You can also search/filter Admission Enquiry by Enquiry Date, Source or Enquiry Status. To add New Enquiry click on <strong>+ Add</strong> button. Here enter <strong>Name, Phone, Email, Address, Description, Note, Date, Next Follow Up Date, Assigned, Reference, Source, Class</strong> and <strong>Number Of Child</strong> then click on <strong>Save</strong> button. To edit or delete enquiry simply click on <strong>Edit/Delete</strong> button from <strong>Action</strong> column. To follow existing enquiries click on <strong>Follow Up</strong> button from Action column. Here you can enter <strong>Follow Up Date</strong>, <strong>Next Follow Up Date</strong> then person <strong>Response</strong> and your any <strong>Note</strong>. From right panel of this window you can check <strong>Summary</strong> of this enquiry. You can also change status of this enquiry from <strong>Status</strong> dropdown.
+                        <p><img src="assets/images/front-admission-enquiry.png" alt="img" class="img-responsive"/></p></li>
+                    
+					<li><strong>Visitor Book</strong>- In Visitor Book we will keep records of all persons coming in school reception for any purpose, e.g. student mother has come to meet their child, a book company executive comes for general enquiry etc. Go to <strong>Front Office > Visitor Book</strong> 
+					enter <strong>Purpose, Name, Phone, ID Card, Number Of Person, Date, In Time, Out Time, Note</strong> and <strong>Attach Document</strong> then click on <strong>Save</strong> button. All Visitors details can be see right side of this page.
+					<p><img src="assets/images/front-visiter-book.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Phone Call Log</strong>- Here we will keep all records for Incoming/Outgoing Phone calls from reception. Go to <strong>Front Office > Phone Call Log</strong> 
+					enter <strong>Name, Phone, Date, Description, Next Follow Up Date, Call Duration, Note</strong> and <strong>Call Type</strong> then click on <strong>Save</strong> button. All Phone Call Log details can be see right side of this page.
+					<p><img src="assets/images/front-phone-calllog.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Postal Dispatch</strong>- Here we will keep all records for all Postal items dispatched from school to outside. Go to <strong>Front Office > Postal Dispatch</strong> 
+					enter <strong>To Title, Reference No, Address, Note, From Title, Date</strong> and <strong>Attach Document</strong> then click on <strong>Save</strong> button. All Postal Dispatch details can be see right side of this page.
+					<p><img src="assets/images/front-postal-dispatch.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Postal Receive</strong>- Here we will keep all records for all Postal items received in school from outside. Go to <strong>Front Office > Postal Receive</strong> 
+					enter <strong>From Title, Reference No, Address, Note, To Title, Date</strong> and <strong>Attach Document</strong> then click on <strong>Save</strong> button. All Postal receive details can be see right side of this page.
+					<p><img src="assets/images/front-postal-receive.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Complain</strong>- Here we will keep all Complain records coming to reception or from online front site complain page. Go to <strong>Front Office > Complain</strong> 
+					enter <strong>Complain Type. Source, Complain By, Phone, Date, Description, Action Taken, Assigned, Note</strong> and <strong>Attach Document</strong> then click on <strong>Save</strong> button. All Complain details can be see right side of this page.
+					<p><img src="assets/images/front-add-complain.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end Front Office-->
+
+<!--Student Information-->
+<section id="stuinf"><h1 class="page-header">Student Information</h1><hr>
+ <P>This module has 9 sections -</P>
+                <ol>
+                    <li>Student Details</li>
+                    <li>Student Admission</li>
+					<li>Student Report</li>
+					<li>Guardian Report</li>
+					<li>Student History</li>
+					<li>Student Login Credential</li>
+					<li>Student Categories</li>
+					<li>Student House</li>
+					<li>Disabled Students</li>
+                </ol>
+                <p>First we will add <b>Student Categories</b>, <b>School House</b> then take <b>Student Admission</b> then search <b>Students Details</b>.</p>
+                <ul>
+                    <li><b>Student Categories</b>- Go to <b>Student Information > Student Categories</b> Add all student categories here. Student categories can be caste, community or group wise.
+                        <p><img src="assets/images/admin-student-categories.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li><b>Student House</b>- Go to <b>Student Information > Student House</b> Add all student house here. Student house is also another type of grouping of students.
+                        <p><img src="assets/images/admin-student-house.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><b>Student Admission</b>- Go to <b>Student Information > Student Admission</b> add student basic details <b>Admission No</b>, <b>Roll No</b>, select <b>Class</b> and <b>Section</b>, <b>First Name</b>, <b>Last Name</b>, <b>Gender</b>, <b>Date Of Birth</b>, <b>Category</b>, <b>Religion</b>, <b>Caste</b>, Student <b>Mobile Number</b>, <b>Email</b>, <b>Admission Date</b>, <b>Student Photo</b>, <b>Blood Group</b>, <b>Student House</b>, <b>Height</b>, <b>Weight</b>, <b>As on Date</b>, if this student has sibling and already study in this school then click on <b>Add Sibling</b> button and select sibling (note that if student has more than one sibling study in school then you do not have to select all the siblings just select any one sibling and system automatic detects other siblings), add student <b>Father</b>, <b>Mother</b> and <b>Guardian</b> details. Now click on <b>Save</b> button to complete student admission, if you want to add more details of student like <b>Student Address Details</b>, <b>Transport Route Details</b>, <b>Hostel Details</b>, <b>Miscellaneous Details</b>, <b>RTE</b> (Right To Education - in some countries there is a government funded scheme under which student get free education and government pay fees for these students) and <b>Upload Documents</b> then click on <b>Add More Detail</b> button. Student admission, admit students in by default in current selected session.
+                        <p>To importing bulk students for admission click on upper right side <b>Import Student</b> button. Now select class and section and browse <b>.csv</b> and click on <b>Import Students Data</b> file to import student data. You can download sample .csv file by clicking upper right <b>Download Sample Import File</b> button. Note that by importing bulk student you have to update student record for proper admission record.
+                        <p><img src="assets/images/admin-student-information.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><b>Student Details</b>- Go to <b>Student Information > Student Details</b> select <b>Class</b> and <b>Section</b> and click on <b>Search</b> button to get student list under this class-section. You can also search student by keyword in <b>Search Input Box</b> and click on <b>Search</b> button. After search you will get student list below. There are two views here one is <b>List View</b> and <b>Details View</b>. Every row has three buttons in right side <b>Show</b> (to see student profile), <b>Edit</b> (to edit student profile) and <b>Add Fee</b> (to add student fees). Click on <b>Show</b> button to open student profile. Student profile page provides <b>360* View</b> of student, consist student basic details, address details, parent / guardian details, miscellaneous details, fees details, exam details, documents and timeline related to student. You can check student and their guardian login credentials by clicking on <b>Login Details</b> link. If any student get admitted by mistake and we need to <b>Disable</b> student then you can click on red color hands down icon button. After disabling student you can also <b>Delete</b> this disabled student. Be careful! once student deleted, there is no way to rollback its record.
+                        <p><img src="assets/images/admin-student-detail.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/admin-student-profile.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li><strong>Student Report</strong>- Go to <strong>Student Information > Student Report</strong> here  you can view class-section wise student report.
+                        <p><img src="assets/images/students-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Guardian Report</strong>- Go to <strong>Student Information > Guardian Report</strong> here  you can view class-section wise student guardian report.
+                        <p><img src="assets/images/guardian-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Student History</strong>- Go to <strong>Student Information > Student History</strong> here  you can view class and session wise Student History.
+                        <p><img src="assets/images/student-history.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Student Login Credential</strong>- Go to <strong>Student Information > Student Login Credential</strong> here  you can view class-section wise Student/Parent Login Credential.
+                        <p><img src="assets/images/student-login-credential.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Disabled Student</strong>- Go to <strong>Student Information > Disabled Student</strong> here  you can view all Disabled Students.
+                        <p><img src="assets/images/disabled-students.png" alt="img" class="img-responsive"></p>
+                    </li>					
+                </ul>
+</section>
+<!--end Student Information-->
+
+<!--Fees Collection-->
+<section id="feescollect"><h1 class="page-header">Fees Collection</h1><hr>
+   <P>This module has 10 sections -</P>
+                <ol>
+                    <li>Collect Fees</li>
+                    <li>Fees Master</li>
+                    <li>Fees Group</li>
+                    <li>Fees Type</li>
+                    <li>Fees Discount</li>
+                    <li>Search Fees Payment</li>
+                    <li>Search Due Fees</li>
+                    <li>Fees Statement</li>
+                    <li>Balance Fees Report</li>  
+                    <li>Fees Carry Forward</li>
+                </ol>
+                <br>
+      
+                <P>First we will prepare our <strong>Fees Structure</strong> for Current Session by configuring <strong>Fees Type</strong>, <strong>Fees Group</strong> and <strong>Fees Master</strong> then we will <strong>Collect Fees</strong> of students then we will understand and review various fees reports by using <strong>Search Fees Payment</strong>, <strong>Search Due Fees</strong>, <strong>Fees Statement</strong> and <strong>Balance Fees Report</strong>.</P> 
+                <p>Lets understand how we will create fees structure in Smart School by using <strong>Fees Type</strong>, <strong>Fees Group</strong> & <strong>Fees Master</strong>. <strong>Fees Type</strong> means different types of fees can be collect by school e.g. Admission Fees, April Month Fees, May Month Fees, June Month Fees, Exam Fees, Dress/Uniform Fees, Library Fees, Sports Fees, Transportation Bus Fees, Picnic Fees etc. <strong>Fees Group</strong> Fees Group is use to make grouping of different Fees Type Then you can assign/allocate this Fees Group to whole class-section or a particular student. When you assign/allocate a Fees Group on a class-section or a particular student all Fees Type under this group with their Fees Master amount will be applied directly. You can assign/allocate multiple Fees Groups on a class-section or a particular student. Suppose we have created a Fees Group with the name Class 6 (2 Instalments) and added Fees Types Admission Fees ($1000), 1st Instalment ($5000), 2nd Instalment ($5000) then assign/allocate this Fees Group Class 6 (2 Instalments) on those students only who want to pay fees in 2 Instalments. You can create another Fees Group with the name Class 6 (1 Instalments) and add Fees Type Admission Fees ($1000), Full Instalment ($9500). You can also create another fees group with the name Class 6 Transport Fees and add Transport Fees as Fees Type and assign/allocate on those students who use transport facility. <strong>Note: Fees Type and Fees Group are not dependent on Academic Session but Fees Master is created session wise so you need to enter Fees Master data for every session.</strong>
+                </p>
+                <ul>
+                    <li><strong>Fees Type</strong>- Go to <strong>Fees Collection > Fees Type</strong> add all your Fees Type here with Fees Code. All <strong>Fees Type</strong> can be see at right side of this page.
+                    <p><img src="assets/images/add-fees-type.png" alt="img" class="img-responsive"/></p>
+                    </li>   
+                    <li><strong>Fees Group</strong>- Go to <strong>Fees Collection > Fees Group</strong> add all your Fees Group here. All <strong>Fees Group</strong> can be see at right side of this page.
+                        <p><img src="assets/images/admin-fees-groups.png" alt="img" class="img-responsive"/></p>
+                    </li>  
+                    <li><strong>Fees Master</strong>- Go to <strong>Fees Collection > Fees Master</strong> add all your fees amount for current selected session here. Select 
+                        <strong>Fees Group</strong> then <strong>Fees Type</strong> then <strong>Due Date</strong> then enter <strong>Amount</strong> means fees amount for selected session now click <strong>Save</strong> button. All Fees Master with Fees Group and Fees Code with amount can be see at right side of this page for current selected session.
+                        <p><img src="assets/images/add-fees-master.png" alt="img" class="img-responsive"/></p>
+                        To assign/allocate Fees Group click on Assign/View button from Action column. Now at next page select Class then Section and click on Search button. Now select the students on which you want to assign/allocate this Fees Group then click on Save button.
+                        <p><img src="assets/images/add-fees-master-view.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Fees Discount</strong>- Go to <strong>Fees Collection > Fees Discount</strong> add all your Fees Discount here with Discount Name, Discount Code, Amount and Description. All <strong>Fees Discount</strong> can be see at right side of this page. To assign/allocate discount click on Assign/View button from Action column.
+                        <p><img src="assets/images/fees-discount1.png" alt="img" class="img-responsive"/></p>
+                        On Next page select Class and Section then click on Search button. After Search select students on which this discount have to be applied then click on Save button.
+                        <p><img src="assets/images/fees-discount1-view.png" alt="img" class="img-responsive"/></p>
+                    </li>           
+                    <li><strong>Collect Fees</strong>- Go to <strong>Fees Collection > Collect Fees</strong> select 
+                        <strong>Class</strong> & <strong>Section</strong> & click in <strong>Search</strong> button  to get student list under this class-section. You can also search student by keyword in Search Input Box and click on 
+                        <strong>Search</strong> button. After search you will get student list below. Click on <strong>Collect Fees</strong> button to go to 
+                        collect fees page. Here you can see student details including student picture then next you can see all assign/allocate fees details.
+                        Collecting fees is very simple just click the 
+                        <strong>+</strong> button from Action column a modal window will appear, here select 
+                        <strong>Date</strong> then <strong>Amount</strong> will be auto fetch by balance for this Fees Invoice. You can enter any amount for <strong>Partial Fees</strong> payment, then select <b>Discount Group</b> or enter 
+                        <strong>Discount</strong> (if any) then enter <strong>Fine</strong> (if any) then 
+                        <strong>Payment Mode</strong> then <strong>Note</strong> then click on <strong>Collect Fees</strong> button. Now 
+                        fees has been collected & <strong>Revert</strong> button visible for reverting this fees. For printing 
+                        <strong>Fees Receipt</strong> click on <strong>Print</strong> button from Action column. 
+                        <p><img src="assets/images/admin-collect-fees-lura.png" alt="img" class="img-responsive"/></p>    
+                        <p><img src="assets/images/admin-collect-fees-lurapopup1.png" alt="img" class="img-responsive"/></p>
+                        <strong>Fees Discount Adjustment</strong>: If you have applied discount by selection of <b>Discount Group</b> then there is no need for any adjustment. When you assign/allocate Fees Discount on any student then it will be only assigned. To make it apply you need to adjust this discount on any Fees Invoice payment by giving discount. To apply discount you need to first give discount on any fees invoice then click on Apply Discount button from Action column, a modal window will be open. Here enter Payment Id on which this discount has been given and enter description (if any). Now click on Apply Discount button to apply discount.
+                        <p><img src="assets/images/admin-collect-fees-lura-popup2.png" alt="img" class="img-responsive"/></p> 
+                    </li>
+                    <li><strong>Search Fees Payment</strong>- Go to <strong>Fees Collection > Search Fees Payment</strong> for searching any fees payment details through 
+                        <strong>Payment ID</strong> enter <strong>Payment Id</strong> & click search button you will get the details for this payment id.
+                        <p><img src="assets/images/admin-search-fees-payment.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Search Due Fees</strong>- Go to <strong>Fees Collection > Search Due Fees</strong> for searching those students who have not done payment for a particular fees type then select 
+                        <strong>Fees Category</strong> then <strong>Fees Type</strong> then <strong>Class</strong> then 
+                        <strong>Section</strong> & click <strong>Search</strong> button, you will get all the students list for due fees.
+                        <p><img src="assets/images/admin-search-due-fees.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Fees Statement</strong>- Go to <strong>Fees Collection > Fees Statement</strong> to get fees statement for a student. Select 
+                        <strong>Class</strong> then <strong>Section</strong> then <strong>Student</strong> then click 
+                        <strong>Search</strong>.
+                        <p><img src="assets/images/admin-fees-statement.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Balance Fees Report</strong>- Go to <strong>Fees Collection > Balance Fees Report</strong> to know 
+                        <strong>Total Fees</strong>, <strong>Total Paid Fees</strong> & <strong>Total Balance Fees</strong> in a particular Section, select 
+                        <strong>Class</strong> then <strong>Section</strong> then click on <strong>Search</strong> button.
+                        <p><img src="assets/images/admin-balance-fees-report.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Fees Carry Forward</strong>- Go to <strong>Fees Collection > Fees Carry Forward</strong> if any student has balance fees in previous session then you can forward this balance fees to current session. Select 
+                        <strong>Class</strong>, <strong>Section</strong> then click <strong>Search</strong> button. Students with balance fees will be display below. If you want you can edit balance fees amount to be forward. In Top right corner you can see <strong>Due Date</strong> for all these fees forward. This <strong>Due Date</strong> will be number of days ahead which is set in <strong>System Settings > General Setting > Fees Due Days</strong>. This balance fees carry forward can be see in collect fees page as Balance Master (Fees Group) and Previous Session Balance (Fees Code).
+                        <p><img src="assets/images/fees-carry-forward.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end Fees Collection-->
+
+<!--income-->
+<section id="income"><h1 class="page-header">Income</h1><hr>
+<p>This module has 3 sections -</p>
+                <ol>
+                    <li>Add Income</li>
+                    <li>Search Income</li>
+                    <li>Income Head</li>
+                </ol>
+                <p>First we will create our <strong>Income Head</strong> then we will 
+                    <strong>Add</strong> our daily/monthly <strong>Incomes</strong> then we will 
+                    <strong>Search</strong> our <strong>Income</strong>.</p>
+                <ul>
+                    <li><strong>Income Head</strong>- Go to <strong>Income > Income Head</strong> enter 
+                        <strong>Income Head</strong> and its <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All Income head can be see right side of this page.
+                        <p><img src="assets/images/admin-income-head.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Add Income</strong>- Go to <strong>Income > Add Income</strong> select 
+                        <strong>Income Head</strong> then enter Income <strong>Name</strong> then 
+                        <b>Invoice Number</b>, <strong>Date</strong> of Income then <strong>Amount</strong> then <strong>Attach Document</strong> then <strong>Description</strong> & click on 
+                        <strong>Save</strong> button. Recently added 10 Incomes can be see right side of this page.
+                        <p><img src="assets/images/admin-add-income.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Search Income</strong>- Go to <strong>Income > Search Income</strong> to search Incomes between two dates or by a keyword select 
+                        <strong>Date From</strong> & <strong>Date To</strong> or enter keyword then click on 
+                        <strong>Search</strong> button, you will get the list of all Incomes related to your search criteria.<p><img src="assets/images/admin-search-income.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end income-->
+
+<!--expenses-->
+<section id="expenses"><h1 class="page-header">Expenses</h1><hr>
+<p>This module has 3 sections -</p>
+                <ol>
+                    <li>Add Expense</li>
+                    <li>Search Expense</li>
+                    <li>Expense Head</li>
+                </ol>
+                <p>First we will create our <strong>Expense Head</strong> then we will 
+                    <strong>Add</strong> our daily/monthly <strong>Expenses</strong> then we will 
+                    <strong>Search</strong> our <strong>Expense</strong>.</p>
+                <ul>
+                    <li><strong>Expense Head</strong>- Go to <strong>Expenses > Expense Head</strong> enter 
+                        <strong>Expense Head</strong> and its <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All expense head can be see right side of this page.
+                        <p><img src="assets/images/admin-expense-head.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Add Expense</strong>- Go to <strong>Expenses > Add Expense</strong> select 
+                        <strong>Expense Head</strong> then enter expense <strong>Name</strong> then 
+                        <b>Invoice Number</b>, <strong>Date</strong> of expense then <strong>Amount</strong> then <strong>Attach Document</strong> then <strong>Description</strong> & click on 
+                        <strong>Save</strong> button. Recently added 10 expenses can be see right side of this page.
+                        <p><img src="assets/images/admin-add-expense.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Search Expense</strong>- Go to <strong>Expenses > Search Expense</strong> to search expenses between two dates or by a keyword select 
+                        <strong>Date From</strong> & <strong>Date To</strong> or enter keyword then click on 
+                        <strong>Search</strong> button, you will get the list of all expenses related to your search criteria.<p><img src="assets/images/admin-search-expense.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end expenses-->
+
+<!--Attendance-->
+<section id="attendance"><h1 class="page-header">Attendance</h1><hr>
+ <p>This module has 3 sections -</p>
+                <ol>
+                    <li>Student Attendance</li>
+                    <li>Attendance By Date</li>
+                    <li>Attendance Report</li>
+                </ol>
+                <p>First we will enter <strong>Student Attendance</strong> then we will search student attendance for a particular date or we can get whole month students 
+                    <strong>Attendance Report</strong>.</p>
+                <ul>
+                    <li><strong>Student Attendance</strong>- Go to <strong>Attendance > Student Attendance</strong> select 
+                        <strong>Class</strong> then <strong>Section</strong> then <strong>Attendance Date</strong> then click 
+                        <strong>Search</strong> button. Now below you can see list of students & attendance options like 
+                        <strong>Present</strong>, <strong>Late</strong>, <strong>Absent</strong> etc. Select the attendance for students then click on 
+                        <strong>Submit Attendance</strong> button. To enter National Holiday or Sunday select 
+                        <strong>Mark as holiday</strong> button then <strong>Submit Attendance</strong> button. Note that is attendance is already submitted for a date then you can only edit attendance.
+                        <p><img src="assets/images/admin-student-attendance.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Attendance By Date</strong>- Go to <strong>Attendance > Attendance By Date</strong> to check attendance for a particular date select 
+                        <strong>Class</strong> then <strong>Section</strong> then <strong>Date</strong> then click on 
+                        <strong>Search</strong> button.
+                        <p><img src="assets/images/admin-attendance-by-date.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Attendance Report</strong>- Go to <strong>Attendance > Attendance Report</strong> to check attendance for a whole month select 
+                        <strong>Class</strong> then <strong>Section</strong> then <strong>Month</strong> then click 
+                        <strong>Search</strong> button.
+                        <p><img src="assets/images/admin-attendance-report.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end Attendance-->
+
+<!--Examinations-->
+<section id="examinations"><h1 class="page-header">Examinations</h1><hr>
+  <p>This module has 4 sections -</p>
+                <ol>
+                    <li>Exam List</li>
+                    <li>Exam Schedule</li>
+                    <li>Marks Register</li>
+                    <li>Marks Grade</li>
+                </ol>
+                <p>First we will prepare <strong>Marks Grade</strong> then create exam in 
+                    <strong>Exam List</strong> then enter <strong>Exam Schedule</strong> then enter marks in 
+                    <strong>Marks Registe</strong>r. Note that there is no need to prepare <strong>Marks Grade</strong> if your institution is not following 
+                    <strong>Grading System</strong> in exams. Just leave <strong>Marks Grade</strong> & don't make any entry in it.</p>
+                <ul>
+                    <li><strong>Marks Grade</strong>- Go to <strong>Examination > Marks Grade</strong> enter 
+                        <strong>Grade Name</strong>, <strong>Percent From</strong>, <strong>Percent Upto</strong>, 
+                        <strong>Description</strong> & click on <strong>Save</strong> button. All the 
+                        grades can be see at right side of this page.
+                        <p><img src="assets/images/exam-marks-grade.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Exam List</strong>- Go to <strong>Examination > Exam List</strong> enter 
+                        <strong>Exam Name</strong>, <strong>Note</strong> & click <strong>Save</strong> button. All the 
+                        exams can be see at the right side of this page, you can also check exam status by clicking 
+                        <strong>View Status</strong> button.
+                        <p><img src="assets/images/admin-exam-list.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li>
+                        <strong> Exam Schedule</strong>- Go to <strong>Examination > Exam Schedule</strong> 
+                        this section has two parts 1) Adding/Editing Exam Schedule 2) Viewing existing Exam Schedule. <br><br>
+                        For <strong>Adding/Editing Exam Schedule</strong> click on <strong>Add</strong> button then on next page select 
+                        <strong>Exam Name</strong>, <strong>Class</strong>, <strong>Section</strong> then you will get all 
+                        Subjects now enter <strong>Date</strong>, <strong>Exam Start Time</strong>, 
+                        <strong>Exam End Time</strong>, <strong>Exam Room</strong>, Exam Subject
+                        <strong>Full Marks</strong>, Exam Subjects Minimum <strong>Passing Marks</strong> & click on 
+                        <strong>Submit</strong> button to save exam Schedule.
+                        <p><img src="assets/images/admin-exam-schedule-add.png" alt="img" class="img-responsive"/></p>    
+                        For viewing existing <strong>Exam Schedule</strong> (go to <strong>Examination > Exam Schedule</strong>) select 
+                        <strong>Class</strong>, <strong>Section</strong> then click <strong>Search</strong> button, you will 
+                        see all exams under this Class-Section now click <strong>View</strong> to see 
+                        <strong>Exam Schedule</strong>.
+                        <p><img src="assets/images/admin-exam-schedule.png" alt="img" class="img-responsive"/></p>    
+                    </li>
+                    <li><strong>Marks Register</strong>- Go to <strong>Examination > Marks Register</strong> Marks Register section has two parts 1) Adding/Editing exam marks 2) Viewing exam marks.<br><br>
+                        For <strong>Adding/Editing Exam Marks</strong> click on <strong>Add</strong> button then on next page select 
+                        <strong>Exam Name</strong>, <strong>Class</strong>, <strong>Section</strong> then you will get all students list now enter marks for all the exam subjects & click on 
+                        <strong>Save</strong> button to submit marks.
+                        <p><img src="assets/images/exam-marks-register-add.png" alt="img" class="img-responsive"/></p>
+                        For viewing <strong>Exam Marks</strong> (go to <strong>Examination > Marks Register</strong>) select 
+                        <strong>Exam Name</strong>, <strong>Class</strong>, <strong>Section</strong> to see marks list.
+                        <p><img src="assets/images/exam-marks-register.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end Examinations-->
+
+<!--Academics-->
+<section id="academics"><h1 class="page-header">Academics</h1><hr>
+ <p>This module has 7 sections -</p>
+                <ol>
+                    <li>Class Timetable</li>
+					<li>Assign Class Teacher</li>
+                    <li>Assign Subjects</li>
+                    <li>Subjects </li>                    
+                    <li>Class</li>
+                    <li>Sections</li>
+					<li>Promote Students</li>
+                </ol>
+                <p>We have already described few section of <strong>Academics Module</strong> during 
+                    <strong>Steps to Setup</strong> your school, but now we will understand completely 
+                    <strong>Academics</strong> module sections. First we will create <strong>Sections</strong> then 
+                    <strong>Classes</strong> then <b>Assign Class Teacher</b> on class-sections then create <strong>Subjects</strong> then 
+                     <strong>Assign Subjects</strong> & <strong>Teachers</strong> to Class-Section then 
+                    <strong>Create Class Timetable</strong>.</p>  
+                <ul>
+                    <li><strong>Sections</strong>- Go to <strong>Academics > Sections</strong> enter 
+                        <strong>Section Name</strong> & click <strong>Save</strong> button. All the 
+                        sections can be see right side on this page.   
+                        <p><img src="assets/images/academics-section.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li>
+						<strong>Class- </strong> Go to
+                        <strong>Academics > Class </strong> enter <strong>Class Name</strong> then select  <b>Sections</b> under this Class then click 
+                        <strong>Save</strong> button. All the <strong>Classes</strong> and their <b>Sections</b> can be see at right side of this page.
+                        <p><img src="assets/images/academics-class.png" alt="img" class="img-responsive"/>     
+                    </li>
+					<li>
+						<strong>Assign Class Teacher- </strong> Go to
+                        <strong>Academics > Assign class Teacher </strong> select <strong>Class</strong> then select  <b>Section</b> then select <b>Class Teachers</b> for this Class Section then click 
+                        <strong>Save</strong> button. All the <strong>Class-Section</strong> and their <b>Class Teachers</b> can be see at right side of this page.
+                        <p><img src="assets/images/academics-assign-class-teacher.png" alt="img" class="img-responsive"/>     
+                    </li>					
+                    <li><strong>Subjects</strong>- Go to <strong>Academics > Subjects</strong> enter 
+                        <strong>Subject Name</strong>, <strong>Subject Type </strong>(Theory/Practical), 
+                        <strong>Subject Code</strong> then click <strong>Save</strong> button. All the subjects can be see at the right side of this page.
+                        <p><img src="assets/images/academics-subject.png" alt="img" class="img-responsive"/></p>   
+                    </li>
+                   
+                    <li><strong>Assign Subjects</strong>- Go to<strong> Academics > Assign Subjects</strong> select 
+                        <strong>Class</strong>, <strong>Section</strong> then click <strong>Search</strong> button. Now select 
+                        <strong>Subject</strong> & <strong>Teacher</strong>. For adding more <strong>Subject</strong> & 
+                        <strong>Teacher</strong> click on <strong>Add</strong> button & select 
+                        <strong>Subject & Teacher,</strong> finally click on <strong>Save</strong> button to 
+                        <strong>Save</strong> assigned Subjects & Teachers.
+                        <p><img src="assets/images/academics-sssign-subjects.png" alt="img" class="img-responsive"/>  
+                    </li>
+                    <li><strong>Class Timetable</strong>- Go to <strong>Academics > Class Timetable</strong> Class Timetable has two parts 1) 
+                        <strong>Adding/Editing class timetable</strong> 2) <strong>Viewing</strong> class 
+                        <strong>timetable</strong>.   
+                        <br>
+                        <br>
+                        For A<strong>dding/Editing Class Timetable</strong> click on <strong>Add</strong> button then on next page select 
+                        <strong>Class</strong>, <strong>Section, Subject</strong> & click <strong>Search</strong> button then you will get 7 days list now enter 
+                        <strong>Start Time</strong>,<strong> End Time</strong>, Room No for each days & click on Save button to save timetable.
+                        <p><img src="assets/images/academics-timetable-add.png" alt="img" class="img-responsive"/></p>
+                        For viewing C<strong>lass Timetable</strong> (go to <strong>Academics > Class Timetable</strong>) select 
+                        <strong>Class</strong>, <strong>Section</strong> & click <strong>Save</strong> button to see class timetable.
+                        <p><img src="assets/images/academics-class-timetable.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li><b>Promote Students</b>- Go to <b>Student Information > Promote Students</b> select <b>Class</b> and <b>Section</b> and click on <b>Search</b> button to get student list under this class-section. Here you can see every student has Current Result column with Pass / Fail and Next Session Status column with Continue / Leave options and three drop down to select Promote In Session, Class, Section just above the student list. 
+                        <br/><br/>Now let's understand how Promote Student works. Promoting students to next session and class-section depends on two things, 1). Student is pass or fail in main examination and 2). Student will be continue in school or leaving from school. If student is pass and will continue to school, only then student will be promoted to next session and class-section. If student is fail and continue to school then students will be promoted to next session but class-section will be remain as it is. If student is pass but leaving to student then student will not be promoted to next session nor promoted to next class-section. This is the whole mechanism of Promote Student. Smart School automatically manage promotion of session and class-section. To promote students first select Promote In Session, Class, Section and for every student select Current Result pass or fail and Next Session Status continue or leave and click on Promote button from bottom right.
+                        <p><img src="assets/images/admin-promote-students.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end Academics-->
+
+<!--Human Resource-->
+<section id="hr"><h1 class="page-header">Human Resource</h1><hr>
+<p>This module has 11 sections -</p>
+                <ol>
+                    <li>Staff Directory</li>
+                    <li>Staff Attendance</li>
+                    <li>Staff Attendance Report</li>
+					<li>Payroll</li>
+					<li>Payroll Report</li>
+					<li>Approve Leave Request</li>
+					<li>Apply Leave</li>
+					<li>Leave Type</li>
+					<li>Department</li>
+					<li>Designation</li>
+					<li>Disabled Staff</li>
+                </ol>
+                <p>
+				In Human Resource we will manage all activities of school staff (not student or parent or guardian) from Principal to Owner to Peon or any School member even he/she using or not using Smart School application. First we will add Department, Designation, Leave Types then we will add Staff Member from Staff Directory then we will manage day by day Staff Attendance then manage Payroll/Salary of staff then Apply or Approve Leave Request.
+				</p>
+                <ul>
+                    <li><strong>Department</strong>- Go to <strong>Human Resource > Department</strong> enter <strong>Department Name</strong> then click <strong>Save</strong> button. All existing Departments can be see right side of this page.                        
+                    <p><img src="assets/images/human-resource-department.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Designation</strong>- Go to <strong>Human Resource > Designation</strong> enter <strong>Designation Name</strong> then click <strong>Save</strong> button. All existing Designation can be see right side of this page.                         
+                    <p><img src="assets/images/human-resource-designation.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Leave Type</strong>- Go to <strong>Human Resource > Leave Type</strong> enter <strong>Leave Type Name</strong> then click <strong>Save</strong> button. All existing <strong>Leave Type</strong> can be see right side of this page.
+                    <p><img src="assets/images/human-resource-leavetype.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Staff Directory</strong>- Go to <strong>Human Resource > Staff Directory</strong> here you can search all active staff members. You can filter staff members by Role or search by any keyword. You can also see staff directory in two views Card View or List View. 
+					<p><img src="assets/images/human-resource-staff.png" alt="img" class="img-responsive"/></p>
+					
+					<p>You can edit any staff by clicking on <strong>Edit</strong> button on Staff Card. To view staff details/profile click on <strong>View</strong> button present on staff card. Staff profile provides 360* view of staff including complete profile, payroll, payslip, allotted/apply/approved leaves, monthly/yearly attendance, uploaded documents and timeline. After staff retirement or reliving you can <strong>Disable</strong> staff from top right down hand red icon button. After disabling staff, staff profile is marked as red color in background and its login to Smart School also being disabled. Disabled staff can be seen in Human Resource > Disabled Staff. You can also add staff leaving date and resignation letter from staff Edit. Staff can be deleted after disabling staff.
+					<img src="assets/images/human-resource-staff-view.png" alt="img" class="img-responsive"/>
+					</p>
+					
+					To add new staff member click on <strong>+ Add Staff</strong> button from top right corner of this page. Enter <strong>Staff ID</strong>, select <strong>Role</strong> (roles can be manage from System Settings > Roles Permission), <strong>Designation, Department, First Name, Last Name, Father Name, Mother Name, Gender, Marital Status, Date Of Birth, Date Of Joining, Phone, Emergency Contact Number, Email, Photo, Current Address, Permanent Address, Qualification, Work Experience, Note, EPF No (Employee Provident Fund Number), Basic Salary, Contract Type, Work Shift, Location, Number Of Leaves, Bank Account Title, Bank Account Number, Bank Name, IFSC Code, Bank Branch Name, Facebook URL, Twitter URL, LinkedIn URL, Instagram URL, Upload Resume, Joining Letter</strong> and <strong>Other Documents</strong> then click on <strong>Save</strong> button.
+                    <p><img src="assets/images/human-resource-addstaff.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Staff Attendance</strong>- Go to <strong>Human Resource > Staff Attendance</strong> here you can record staff attendance. Select Staff <strong>Role</strong> and <strong>Attendance Date</strong> then click on <strong>Search</strong> button. Now can see staff list, select attendance radio button for <strong>Present/Late/Absent/Half Day</strong> and enter any <strong>Note</strong> then click on <strong>Save Attendance</strong> button to submit attendance. If you mark selected date as Holiday then check button <strong>Mark As Holiday</strong>. If attendance has been already submitted then you will get message of "Attendance Already Submitted You Can Edit Record" in this case you can still edit exiting attendance.
+                    <p><img src="assets/images/human-resource-staff-attendance.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Staff Attendance Report</strong>- Go to <strong>Human Resource > Staff Attendance Report</strong> here you can check staff monthly report, Present/Late/Absent/Half Day/Holiday, Gross Present % etc.                        
+                    <p><img src="assets/images/human-resource-staff-attendancereport.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Payroll</strong>- Go to <strong>Human Resource > Payroll</strong> here we will generate monthly salary of staff members. Select <strong>Role, Month</strong> and <strong>Year</strong> then click <strong>Search</strong> button to see staff members list and their payroll status. Now you can see staff list, from Status column you can see current salary status available option from <strong>Action</strong> column. Payroll has three status Not Generated -> Generated -> Paid. If status is Not Generated then you can see Generate Payroll button, if status is Generated then you can see Proceed To Pay button and if status is Paid then you can see View Payslip button in Action column. If status is Generated or Paid then you can revert this status in previous status.                        
+                    <p><img src="assets/images/human-resource-payroll.png" alt="img" class="img-responsive"/></p>
+					
+					Now click on <strong>Generate Payroll</strong> button from <strong>Action</strong> column. At this page you can see staff profile, attendance, approve leaves details. In earning column add earning <strong>Type</strong> and <strong>Amount</strong> then in deduction column enter deduction <strong>Type</strong> and <strong>Amount</strong> (from top right corner <strong>Attendance</strong> section you can check this month all attendance and approve details based on this you can calculate deduction for this staff) then in Payroll Summary column enter any tax if applied then finally click on <strong>Calculate</strong> button to calculate Net Salary amount then click on <strong>Save</strong> button to save this salary generation. 
+					<p><img src="assets/images/human-resource-generate-payroll.png" alt="img" class="img-responsive"/></p>
+					
+					Now come again on payroll page and check this staff payroll status for same month now it should be <strong>Generated</strong> and in <strong>Action</strong> column <strong>Proceed To Pay</strong> button should be visible. Here click on <strong>Proceed To Pay</strong> button to pay generated salary to this staff. Now at Proceed To Pay modal popup window you can <strong>Staff, Net Payment Amount, Month-Year</strong>, select <strong>Payment mode</strong> through which you are paying salary,<strong> Payment Date</strong>, and <strong>Note</strong> then click on <strong>Save</strong> button.
+					<p><img src="assets/images/human-resource-generate-payroll-modal.png" alt="img" class="img-responsive"/></p>
+					
+					Now come again on payroll page and check this staff payroll status for the same month now it should be <strong>Paid</strong> and in <strong>Action</strong> column <strong>View Payslip</strong> button should be visible. Here click on <strong>View Payslip</strong> button to see and print payslip. 
+					<p><img src="assets/images/human-resource-generate-payroll-print.png" alt="img" class="img-responsive"/></p>
+					</li>
+					
+					<li><strong>Payroll Report</strong>- Go to <strong>Human Resource > Payroll Report</strong> here we will check payroll report. Select <strong>Role, Month</strong> and <strong>Year</strong> then click on Search.
+                        
+                    <p><img src="assets/images/human-resource-payroll-report.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Approve Leave Request</strong>- Go to <strong>Human Resource > Approve Leave Request</strong> here you can view, approve or manually submit staff leave request. Click on <strong>View</strong> icon button from <strong>Action</strong> column to see details of applied leave request. Now at this modal popup window you can see details of leave request and change its status to <strong>Approve/Disapprove/Pending</strong> then enter any Note then click on <strong>Save</strong> button.                        
+                    <p><img src="assets/images/human-resource-approve-leave.png" alt="img" class="img-responsive"/></p>
+					
+					To add leave request manually click on <strong>Add Leave Request</strong> button from top right corner. Here select <strong>Role, Staff Name, Apply Date, Leave Type, Leave Date, reason, Note, Attach Document</strong> and <strong>Status</strong> of leave request then click on <strong>Save</strong> button.
+					<p><img src="assets/images/human-resource-approve-addleave.png" alt="img" class="img-responsive"/></p>
+					</li>
+					
+					<li><strong>Apply Leave</strong>- Go to <strong>Human Resource > Apply Leave</strong> here logged in staff user can apply/view leave request for his own only. To view applied leaves click on <strong>View</strong> icon button from <strong>Action</strong> column. To apply leave click on <strong>Apply Leave</strong> button from top right corner. 
+                        
+                    <p><img src="assets/images/human-resource-applyleave.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Disabled Staff</strong>- Go to <strong>Human Resource > Disabled Staff</strong> here you can see all Disabled Staff. Click on any staff to see his/her profile. At profile page you can see <strong>Delete</strong> Staff button, by deleting staff all profile data will be deleted. To Enable any Disabled staff click on green color hands up icon button.
+                        
+                    <p><img src="assets/images/human-resource-disabled-staff.png" alt="img" class="img-responsive"/></p></li>					
+					
+                </ul>
+</section>
+<!--end Human Resource-->
+
+<!--Communicate-->
+<section id="communicate"><h1 class="page-header">Communicate</h1><hr>
+ <p>This module has 4 sections -</p>
+                <ol>
+                    <li>Notice Board</li>
+                    <li>Send Message</li>
+                    <li>Send Email / SMS</li>
+                    <li>Email / SMS Log</li>
+                </ol>
+                <p>We will send messages through Notice Board or Email / SMS and then sent messages can be check at Notice Board or Email / SMS Log</p>
+
+                <ul>
+                    <li><strong>Send Message</strong>- Go to <strong>Communicate > Send Message</strong> enter 
+                        <strong>Message Title</strong>, <strong>Message</strong>, <strong>Notice Date</strong>, 
+                        <strong>Publish Date</strong>, <strong>Message To</strong> & click <strong>Save</strong> button. Note that, Notice Date is the date at which notice is being post & Publish Date is the date at which notice is being visible to Staff, Students & Parents.
+                        <p><img src="assets/images/communicate-send-message.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Notice Board</strong>- Go to <strong>Communicate > Notice Board</strong> here you can see all the posted messages.
+                        <p><img src="assets/images/communicate-notice-board.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Send Email / SMS</strong>- Go to <strong>Communicate > Send Email / SMS</strong> at this page there are three tabs <strong>Group, Individual</strong> and <strong>Class</strong> 
+                    to select which users group you want to send email / sms. You can also send only Email or SMS or both at once.
+                    <p>Open <strong>Group</strong> tab to send email / sms to all <strong>Students, Guardians</strong> and <strong>Staff</strong> enter message <strong>Title </strong>then select <strong>Send Through</strong> to send message through <strong>Email or SMS or both</strong>, then enter <strong>Message </strong>then select all those users groups (Students, Guardians and Staff) you want to send this Email / SMS then click to <strong>Send </strong>button. <strong>Here note that text entered in Title will not be sent through SMS, Title text will only send through email as email subject and Message text will be send as email body</strong>.</p>
+                        <p><img src="assets/images/-admin-mailsms-compose1.png" alt="img" class="img-responsive"/></p>
+                    <p>Open <strong>Individual </strong>tab to send email / sms to individually selected 
+					<strong>Students, Guardians</strong> and 
+					<strong>Staff</strong>.</p>
+                        <p><img src="assets/images/-admin-mailsms-compose2.png" alt="img" class="img-responsive"/></p>
+                    <p>Open <strong>Class </strong>tab to send email / sms to all students under selected 
+					<strong>Class-Section</strong>.</p>
+                        <p><img src="assets/images/-admin-mailsms-compose3.png" alt="img" class="img-responsive"/></p>						
+                    </li>
+                    <li><strong>Email / SMS Log</strong>- Go to <strong>Communicate > Email / SMS Log</strong> here you can see all the email / sms sent through <strong>Send Email / SMS</strong>.
+                        </p><p><img src="assets/images/admin-mailsms-log.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    
+                </ul>
+</section>
+<!--end Communicate-->
+
+<!--Download Center-->
+<section id="downcent"><h1 class="page-header">Download Center</h1><hr>
+ <p>This module has 5 sections -</p>
+                <ol>
+                    <li>Upload Content</li>
+                    <li>Assignments</li>
+                    <li>Study Material</li>
+                    <li>Syllabus</li>
+                    <li>Other Downloads</li>
+                </ol>
+                <p>In <strong>Download Center</strong> we will upload all content from <strong>Upload Content</strong> section under four content types 
+                    <strong>Assignments</strong>, <strong>Study Material</strong>, <strong>Syllabus</strong>, 
+                    <strong>Other Download </strong>& rest of four sections are used for viewing uploaded content under these content types.</p>
+                <ul>
+                    <li><strong>Upload Content</strong>- Go to <strong>Download Center > Upload Content</strong> enter 
+                        <strong>Content Title</strong>, <strong>Content Type</strong>, <b>Available For</b>, <strong>Class</strong>, 
+                        <strong>Upload Date</strong>, <strong>Description</strong>, <strong>Select 
+                            File</strong> & click <strong>Save</strong> button. Recently uploaded 10 contents can be see right side at this page. You can download content by clicking 
+                        <strong>Download</strong> button in action column.
+                        <p><img src="assets/images/download-center-upload-content.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Assignments</strong>- Go to <strong>Download Center > Assignments</strong> all the content uploaded under Assignments content type can be see at this page.    
+                    </li>
+                    <li><strong>Study Material</strong>- Go to <strong>Download Center > Study Material</strong> all the content uploaded under Study Material content type can be see at this page.</li>
+                    <li><strong>Syllabus</strong>- Go to <strong>Download Center > Syllabus</strong> all the content uploaded under Syllabus content type can be see at this page.
+                        <p><img src="assets/images/download-center-syllabus.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Other Downloads</strong>- Go to <strong>Download Center > Other Downloads</strong> all the content uploaded under Other Downloads content type can be see at this page.</li>
+                </ul>
+</section>
+<!--end Download Center-->
+
+<!--Homework-->
+<section id="homework"><h1 class="page-header">Homework</h1><hr>
+<p>This module has 2 sections -</p>
+                <ol>
+                    <li>Add Homework</li>
+                    <li>Evaluation Report</li>					
+                </ol>
+                <p>Here Teachers can create Homework for their Class-Section. After creating homework teachers can evaluate homework for class-section students that who has completed homework or not completed.			
+				First we will <strong>Add Homework</strong> then we will evaluate homework.</p>
+                <ul>
+                    <li><strong>Homework</strong>- Go to <strong>Homework > Add Homework</strong> Here you can see all previously created homework and search them different criteria. 
+					<p><img src="assets/images/adhomework.png" alt="img" class="img-responsive"/></p>
+					
+					To add new Homework click on <strong>+ Add</strong> button to open Add Homework modal window. Here enter <strong>Class, Section, Subject, Homework Date, Submission Date, Attach Document</strong> and <strong>Description</strong> then click on <strong>Save</strong> button. 
+					<p><img src="assets/images/adhomework-addbutton.png" alt="img" class="img-responsive"/></p>
+					
+					To evaluate homework click on <strong>View</strong> button from <strong>Action</strong> column to open Evaluate homework modal window. Here from left <strong>Student List</strong> select student who has completed this homework and move them to <strong>Homework Completed List</strong> then select <strong>Evaluation Date</strong> then click on <strong>Save</strong> button.
+                        <p><img src="assets/images/adhomework-viewbutton.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Evaluation Report</strong>- Go to <strong>Homework > Evaluation Report</strong> Here You can search Homework Evaluation Report in different criteria.
+					<p><img src="assets/images/adhomework-evaluation.png" alt="img" class="img-responsive"/></p>
+
+					To see report details that how many students have completed homework or not click on View button from Action column.
+                        <p><img src="assets/images/adhomework-evaluation-view.png" alt="img" class="img-responsive"/></p></li>
+                    
+                </ul>
+</section>
+<!--end Homework-->
+
+<!--Library-->
+<section id="library"><h1 class="page-header">Library</h1><hr>
+ <p>This module has 6 sections -</p>
+                <ol>
+                    <li>Add Book</li>
+                    <li>Book list</li>
+                    <li>Issue Return</li>
+                    <li>Add Student</li>
+                    <li>Add Staff Member</li>                    
+                </ol>
+                <p>First we will <strong>Add Books</strong> in library then view & search books in 
+                    <strong>Book List.</strong></p>
+                <ul>
+                    <li><strong>Add Book</strong>- Go to <strong>Library > Add Book </strong>enter 
+                        <strong>Book Title,</strong> <strong>Book No</strong>, <strong>ISBN No</strong>, <strong>Publisher</strong>, <strong>Author</strong>, 
+                        <strong>Subject</strong>, <strong>Rack No,</strong> <strong>QTY</strong>, 
+                        <strong>Book Price</strong>, <strong>Inward Date</strong>, <strong>Description</strong> & click 
+                        <strong>Save</strong> button.
+                        <p><img src="assets/images/library-add-book.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Book List</strong>- Go to <strong>Library > Book List</strong> all the books in library can be view and search at this page.
+                        <p><img src="assets/images/library-book-list.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Issue Return</strong>- Go to <strong>Library > Issue Return</strong> to issue/return a book to library member click on Issue Return button from action column in Members List. Now you will reach to Issue Return page. To Issue a book select <strong>Books</strong>, <strong>Return Date</strong> from Issue Book section. Currently Issued Books can be see in Books Issued section. To Return an issued book click on Return button in Action column.
+                        <p><img src="assets/images/library-issue-return.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Add Student</strong>- Go to <strong>Library > Add Student</strong> to add Student as Library Member, select class and section then click on search button to display list of students then click on + button from student's list action column, if student is already a library member then this student row shows in green color and there will be Surrender button in action column to surrender their membership.
+                        <p><img src="assets/images/library-add-student.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Add Staff Member</strong>- Go to <strong>Library > Add Staff Member</strong> to add Staff Member as Library Member click on + button visible Staff Member list action column, if Staff Member is already a library member then this Staff Member row shows in green color and there will be Surrender button in action column to surrender their membership.
+                        <p><img src="assets/images/library-addstaff-member.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end Library-->
+
+<!--Inventory-->
+<section id="inventory"><h1 class="page-header">Inventory</h1><hr>
+<p>This module has 6 sections -</p>
+                <ol>
+                    <li>Issue Item</li>                    
+                    <li>Add Item Stock</li>
+					<li>Add Item</li>
+					<li>Item Category</li>
+					<li>Item Store</li>
+					<li>Item Supplier</li>
+                </ol>
+                <p>First we will create our <strong>Item Category</strong> then 
+                    <strong>Item Store</strong> then <strong>Item Supplier</strong> then we will add <strong>Item</strong> then <strong>Item Stock</strong> then we will <strong>Issue Items</strong> to any staff members.</p>
+                <ul>
+                    <li><strong>Item Category</strong>- Go to <strong>Inventory > Item Category</strong> enter 
+                        <strong>Item Category</strong> and its <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All Item Category can be see right side of this page.
+                        <p><img src="assets/images/admin-itemcategory.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Item Store</strong>- Go to <strong>Inventory > Item Store</strong> enter 
+                        <strong>Item Store Name</strong>, <strong>Item Stock Code</strong> and <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All Item Store can be see right side of this page.
+                        <p><img src="assets/images/admin-itemstore.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+
+                    <li><strong>Item Supplier</strong>- Go to <strong>Inventory > Item Supplier</strong> enter 
+					<strong>Item Supplier Name, Phone, Email, Address</strong> then enter 
+					<strong>Contact Person Name, Phone, Email</strong> and <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All Item Supplier can be see right side of this page.<p><img src="assets/images/admin-itemsupplier.png" alt="img" class="img-responsive"/></p></li>
+
+                   <li><strong>Add Item</strong>- Go to <strong>Inventory > Add Item</strong> enter 
+				   <strong>Item Name</strong>, select <strong>Item Category</strong> and <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All Items can be see right side of this page.<p><img src="assets/images/admin-item.png" alt="img" class="img-responsive"/></p></li>
+
+                   <li><strong>Add Item Stock</strong>- Go to <strong>Inventory > Add Item Stock</strong> select 
+				   <strong>Item Category, Item, Supplier, Store</strong> then enter 
+				   <strong>Item Quantity, Date</strong>, select <strong>Attach Document</strong> and <strong>Description</strong> then click on 
+                        <strong>Save</strong> button. All Item Stock can be see right side of this page.<p><img src="assets/images/admin-itemstock.png" alt="img" class="img-responsive"/></p></li>
+
+                   <li><strong>Issue Item</strong>- Go to <strong>Inventory > Issue Item</strong> at this page you can see issued item status. To return an item click on <strong>Click to Return</strong> button from <strong>Status</strong> column. 
+				   <p><img src="assets/images/admin-issueitem-screen1.png" alt="img" class="img-responsive"/></p>
+				   
+				   <p>To issue an item click on <strong>Issue Item</strong> button present on top right side of this page. Now at this page select <strong>User Type</strong> then select person from <strong>Issue To</strong> then enter name who is issuing this Item in <strong>Issue By</strong>, select <strong>Issue Date, Return Date</strong>, enter <strong>Note</strong> then select <strong>Item Category, Item,</strong> enter <strong>Available Quantity</strong> then click on 
+                        <strong>Save</strong>.</p><p><img src="assets/images/admin-issueitem-screen2.png" alt="img" class="img-responsive"/></p></li>						
+
+						
+                </ul>
+</section>
+<!--end Inventory-->
+
+<!--Transport-->
+<section id="transport"><h1 class="page-header">Transport</h1><hr>
+ <p>This module has 3 sections -</p>
+                <ol>
+                    <li>Routes</li>
+                    <li>Vehicles</li>
+                    <li>Assign Vehicle</li>
+					<li>Student Transport Report</li>
+                </ol> 
+                <p>First we will add <strong>Routes</strong> then add <strong>Vehicles</strong> then
+                    <strong>Assign Vehicle</strong> on Routes then check <b>Student Transport Report</b>.</p>
+                <ul>
+                    <li><strong>Routes</strong>- Go to <strong>Transport > Routes</strong> enter 
+                        <strong>Route Title</strong>, <strong>Fare</strong> & click 
+                        <strong>Save</strong> button. All the routes can be see right side at this page.
+                        <p><img src="assets/images/transport-routes.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Vehicles</strong>- Go to <strong>Transport > Vehicles</strong> enter 
+                        <strong>Vehicle No</strong>, <strong>Vehicle Model</strong>, <strong>Year Made</strong>, <strong>Driver Name</strong>, <strong>Driver License</strong>, <strong>Driver Contact</strong>, <strong>Note</strong> & click 
+                        <strong>Save</strong> button. All the vehicles can be see right side at this page.
+                        <p><img src="assets/images/transport-vehicle.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Assign Vehicle</strong>- Go to <strong>Transport > Assign Vehicle</strong> select 
+                        <strong>Route</strong> then <strong>Vehicle</strong> & click 
+                        <strong>Save</strong> button. All the assigned vehicles can be see right side at this page.
+                        <p><img src="assets/images/transport-assign-vehicle.png" alt="img" class="img-responsive"/></p></li>
+					<li><strong>Student Transport Report</strong>- Go to <strong>Student Information > Student Transport Report</strong> here you can view all students list who has availed transport facility.
+                        <p><img src="assets/images/student-information-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+                </ul>
+</section>
+<!--end Transport-->
+
+<!--Hostel-->
+<section id="hostel"><h1 class="page-header">Hostel</h1><hr>
+ <p>This module has 3 sections -</p>
+                <ol>
+                    <li>Hostel Rooms</li>
+                    <li>Room Type</li>
+                    <li>Hostel</li>
+					<li>Student Hostel Report</li>
+                </ol>
+                <p>First we will add <strong>Hostel</strong> then <strong>Room Type</strong> then add 
+                    <strong>Hostel Rooms</strong>.</p>  
+                <ul>
+                    <li><strong>Hostel</strong>- Go to <strong>Hostel > Hostel</strong> enter 
+                        <strong>Hostel Name</strong>, <strong>Type</strong>, <strong>Address</strong>, 
+                        <strong>Intake</strong>, <strong>Description</strong> & click <strong>Save</strong> button. All the hostels can be see right side at this page.
+                        <p><img src="assets/images/hostal.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Room Type</strong>- Go to <strong>Hostel > Room Type</strong> enter 
+                        <strong>Room Type</strong>, <strong>Description</strong> & click <strong>Save</strong> button. All the room types can be see right side at this page.
+                        <p><img src="assets/images/hostel-room-type.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Hostel Rooms</strong>- Go to <strong>Hostel > Hostel Room
+                        </strong>enter <strong>Room No / Name</strong>, <strong>Hostel</strong>, 
+                        <strong>Room Type</strong>, <strong>No of Bed,</strong> <strong>Cost Per Bed,</strong>
+                        <strong>Description</strong> & click <strong>Save</strong> button. All the hostel 
+                        rooms can be see right side at this page.
+                        <p><img src="assets/images/hostel-rooms.png" alt="img" class="img-responsive"/></p></li>
+					<li><strong>Student Hostel Report</strong>- Go to <strong>Student Information > Student Hostel Report</strong> here you can view all students list who has availed hostel facility.
+                        <p><img src="assets/images/student-hostel-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+                </ul>
+</section>
+<!--end Hostel-->
+
+<!--Certificate-->
+<section id="cert"><h1 class="page-header">Certificate</h1><hr>
+<p>This module has 4 sections -</p>
+                <ol>
+                    <li>Student Certificate</li>
+                    <li>Generate Certificate</li>
+                    <li>Student ID Card</li>
+					<li>Generate ID Card</li>
+                </ol>
+                <p>
+				
+				First we will design student certificate or id card then we will generate/print them. If you will properly configure background, height, width etc. settings then you can design professional quality certificate or id cards very easily.
+                <ul>
+                    <li><strong>Student Certificate</strong>- Go to <strong>Certificate > Student Certificate</strong> enter <strong>Certificate Name</strong> (certificate name is only for certificate design reference purpose it will not be print on actual certificate), <strong>Header Left Text, Header Center Text, Header Right Text, Body Text</strong> (enter specified keywords for replcing student data dynamically at time of certificate generation), <strong>Footer Left Text, Footer Center Text, Footer Right Text, Certificate Design - Header Height, Footer Height, Body Height, Body Width, Student Photo, Photo Height</strong> and <strong>Background Image</strong> then click on <strong>Save</strong> button. In certificate design we will suggest you to try to edit certificate design parameters by edit as many time possible until you will get your perfect design. You have to adjust many time design parameters to get your perfect design. While adjusting design parameters take browser final print preview or print as pdf option from browser as final reference of print design by using <strong>Generate Certificate</strong> link. Otherwise in final print you will get little bit deviation in design. All Certificate designs can be see right side of this page.
+                        
+                        <p><img src="assets/images/student-certificate.png" alt="img" class="img-responsive"/></p>
+                         <p><img src="assets/images/student-certificate-print.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Generate Certificate</strong>- Go to <strong>Certificate > Generate Certificate</strong> here you can select students and certificate design to generate certificate for those students.
+                        <p><img src="assets/images/generate-certificate.png" alt="img" class="img-responsive"/></p>
+                     <p><img src="assets/images/generate-certificate-print.png" alt="img" class="img-responsive"/></p>    
+                      </li>
+                    
+					<li><strong>Student ID Card</strong>- Go to <strong>Certificate > Student ID Card</strong> 
+					select <strong>Background Image, Logo, Signature</strong> (principal or authorized person signature image), <strong>School Name, Address/Phone/Email, ID Card Title, Header Color</strong>(in hexadecimal code), <strong>Admission Number, Student Name, Class, Father Name, Mother Name, Student Address, Phone</strong> (student Phone), <strong>Date Of Birth and Blood Group</strong> then click on <strong>Save</strong> button. In id card design we will suggest you to try to edit id card design parameters by edit as many time possible until you will get your perfect design. You have to adjust many time design parameters to get your perfect design. While adjusting design parameters take browser final print preview or print as pdf optionfrom browser as final reference of print design from <strong>Generate ID Card</strong> link. Otherwise in final print you will get little bit deviation in design. All id card designs can be see right side of this page.
+                        
+                        <p><img src="assets/images/student-id-card.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/student-id-card-prinmtview.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Generate ID Card</strong>- Go to <strong>Certificate > Generate ID Card</strong> here you can select students and id card design to generate id card for those students.
+                        <p><img src="assets/images/generate-id-card.png" alt="img" class="img-responsive"/></p>
+                         <p><img src="assets/images/generate-id-card-printview.png" alt="img" class="img-responsive"/></p>
+                      </li>
+                </ul>
+</section>
+<!--end Certificate-->
+
+<!--Front CMS-->
+<section id="frontcms"><h1 class="page-header">Front CMS</h1><hr>
+<p>This module has 7 sections -</p>
+                <ol>
+                    <li>Event</li>
+                    <li>Gallery</li>
+                    <li>News</li>
+					<li>Media Manager</li>
+					<li>Pages</li>
+					<li>Menus</li>
+					<li>Banner Images</li>					
+                </ol>
+                <p>With Front CMS we will manage our school frontsite. Here we will create Menu and Menu Item then Pages then Banner Images, Event, Gallery and News. We will use Media Manager to upload images or videos then use in different pages. 
+				
+				<p>
+				To use Front CMS first we will configure it by <strong>System Settings > Front CMS Setting</strong> 
+				here we can <strong>enable/disable Front CMS, Sidebar, Language RTL Text Mode, check Sidebar Option, upload Logo, Favicon, enter Footer Text, Google Analytics, Facebook URL, Twitter URL, Youtube URL, Google Plus, Linkedin URL, Instagram URL, Pinterest URL</strong> and <strong>Current Theme</strong> (there are 3 default themes supplied with Smart School but you can create your own theme by copying "default" theme with your own name in same folder. For themes <strong>/application/views/themes</strong> contains php view files and <strong>/backend/themes</strong> folder contains css, js, images etc. files).</p>
+				
+                        <p><img src="assets/images/front-cms-setting.png" alt="img" class="img-responsive"/></p>
+                    </li>    
+                    <li><strong>Menus</strong>- Go to <strong>Front CMS > Menus</strong> by default there are two menu, <strong>Main Menu</strong> and <strong>Bottom Menu</strong> has been provided which are used in default supplied themes. If you want you can add your new menu but for this you have to set menu position in themes php view files. To add new menu enter <strong>Menu</strong> then add <strong>Description</strong> then click on <strong>Save</strong> button. All existing menu can see right side of this page.
+					<p><img src="assets/images/front-cms-menu.png" alt="img" class="img-responsive"/></p>
+					
+					<p>To add menu items under a menu click on <strong>+</strong> sign button from <strong>Action</strong> column. Now at Add Menu Items page enter <strong>Menu Item, External URL</strong> (if this menu is pointing to a external url), Open In New Tab (if you want after clicking this url will be open in new tab), <strong>External URL Address, Pages</strong> (If you want this menu item will point any cms pages) then click <strong>Save</strong> button. From right side you can see existing menu item list. From here you can arrange menu order or add a menu item as sub menu by drag and drop.
+					</p>
+                        <p><img src="assets/images/front-cms-menu-view.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Media Manager</strong>- Go to <strong>Front Office > Media Manager</strong> 
+					here in Media Manager you can manage you all media assets like images, doc, pdf, zip, rar, text, video files in centralise way used Front CMS module. To non video media files just drag file over "<strong>Choose a file or drag it here</strong>" area or click to select your file. Upload video media content directly in Media Manager is not supported due to streaming issues, so it s recommended to upload your all video content on Youtube then addd video url in Media Manager. To add Youtube video url simply enter video <strong>Youtube url</strong> then click on <strong>Submit</strong> button. You can check media details/preview by clicking on them. You can also search media by any keyword (file name) or filter by media type.
+					<p><img src="assets/images/front-cms-media-manager.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Pages</strong>- Go to <strong>Front Office > Pages</strong> 
+					Here you can manage all pages of Front CMS. There are 4 pages by default supplied with Front CMS, <strong>Home, Contact, Complain and 404 Page</strong> (page not found landing page). To Edit/Delete any existing page click on <strong>Edit/Delete</strong> button from right side <strong>Action</strong> column. To add new page click on <strong>+ Add</strong> button from top right corner of this page. Here enter page Title, select <strong>Page Type</strong> (Standard, Event (page to show all Events), News (page to show all News/Notices), Gallery (page to show all images/video Galleries)), <strong>Description, SEO</strong> (search engine optimization) Details <strong>Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting</strong> to show/hide sidebar, select <strong>Featured Image</strong> (featured image will be show only those themes or pages which have support for featured image) then click on <strong>Save</strong> button. 
+					<p><img src="assets/images/front-cms-pages.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Event</strong>- Go to <strong>Front CMS > Event</strong> Here you can add all events scheduled past/future in your school. To add new event click on <strong>+ Add</strong> button from top right corner of this page. Here enter event <strong>Title, Event Venue, Event Start Date, Event End Date, Description, SEO Detail Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting</strong>, <strong>Featured Image</strong> then click on <strong>Save</strong> button. 
+                        
+                        <p><img src="assets/images/front-cms-events.png" alt="img" class="img-responsive"/></p></li>
+					<li><strong>Gallery</strong>- Go to <strong>Front CMS > Gallery</strong> Here you can add all image/video galleries of your school. To add new gallery click on <strong>+ Add</strong> button from top right corner of this page. Here enter gallery <strong>Title, Description, Gallery Images, SEO Detail Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting, Featured Image</strong> then click on <strong>Save</strong> button. 
+                        <p><img src="assets/images/front-cms-gallery.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>News</strong>- Go to <strong>Front CMS > News</strong> Here you can add all News/Notices of your school. To add new news click on <strong>+ Add</strong> button from top right corner of this page. Here enter news <strong>Title, news Date, Description, SEO Detail Meta Title, Meta Keyword, Meta Description</strong> then select <strong>Sidebar Setting, Featured Image</strong> then click on <strong>Save</strong> button.
+                        <p><img src="assets/images/front-cms-news.png" alt="img" class="img-responsive"/></p></li>
+					
+					<li><strong>Banner Images</strong>- Go to <strong>Front CMS > Banner Images</strong> Here You can add/remove images in Home Page banner. To add images in home page banner click on <strong>+ Add Images</strong> button from top right corner of this page.
+                        
+                        <p><img src="assets/images/front-cms-banner-images.png" alt="img" class="img-responsive"/></p></li>
+                </ul>
+</section>
+<!--end Front CMS-->
+
+<!--Reports-->
+<section id="reports"><h1 class="page-header">Reports</h1><hr>
+<p>This module has 15 sections -</p>
+                <ol>
+                    <li>Student Report</li>
+					<li>Guardian Report</li>
+					<li>Student History</li>
+					<li>Student Login Credential</li>
+                    <li>Fees Statement</li>
+                    <li>Balance Fees Report</li>
+                    <li>Transaction Report</li>
+                    <li>Attendance Report</li>
+                    <li>Exam Marks Report</li>
+					<li>Payroll Report</li>
+					<li>Staff Attendance Report</li>
+					<li>Homework Report</li>
+					<li>Student Transport Report</li>
+					<li>Student Hostel Report</li>
+                    <li>User Log</li>					
+                </ol>
+                <p>All the reports of other different modules are also present under this Report module.</p>
+                <ul>
+                    <li><strong>Student Report</strong>- Go to <strong>Reports > Student Report</strong> select 
+                        <strong>Class</strong>, <strong>Section</strong>, <strong>Category</strong>(optional), 
+                        <strong>Gender</strong>(optional), <strong>RTE</strong>(optional) click 
+                        Search button. You will get all the students list details also you can 
+                        download this report as PDF.
+                        <p><img src="assets/images/students-report.png" alt="img" class="img-responsive"/></p></li>
+					<li><strong>Guardian Report</strong>- Go to <strong>Student Information > Guardian Report</strong> here  you can view student and their parent/guardian details report.
+                        <p><img src="assets/images/guardian-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Student History</strong>- Go to <strong>Student Information > Student History</strong> here  you can view student class and session wise history.
+                        <p><img src="assets/images/student-history.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Student Login Credential</strong>- Go to <strong>Student Information > Student Report</strong> here  you can view student/parent login credentials.
+                        <p><img src="assets/images/student-login-credential.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li><strong>Fees Statement</strong>- Go to <strong>Reports > Fees Statement</strong> to get fees statement for a student. Select 
+                        <strong>Class</strong> then <strong>Section</strong> then <strong>Student</strong> then click 
+                        <strong>Search</strong>.
+                        <p><img src="assets/images/admin-fees-statement.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Balance Fees Report</strong>- Go to <strong>Reports > Balance Fees Report</strong> to know Total Fees, Total Paid Fees & Total Balance Fees in a particular Section, select 
+                        <strong>Class</strong> then <strong>Section</strong> then click on <strong>Search</strong> button.
+                        <p><img src="assets/images/admin-balance-fees-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li><strong>Transaction Report</strong>- Go to <strong>Reports > Transaction Report</strong> to get all the transactions under fees collection & expense can be search here. Select 
+                        <strong>Date From</strong>, <strong>Date To</strong> & click <strong>Search</strong> button to get all the transactions.
+                        <p><img src="assets/images/transaction-report-collection-details.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/transaction-report-income-details.png" alt="img" class="img-responsive"></p>
+
+                        <p><img src="assets/images/transaction-report-expences-details.png" alt="img" class="img-responsive"></p>
+
+                      </li>
+                    <li><strong>Attendance Report</strong>- Go to <strong>Report > Attendance Report</strong> to check attendance for a whole month select 
+                        <strong>Class</strong> then <strong>Section</strong> then <strong>Month</strong> then click 
+                        <strong>Search</strong> button.
+                        <p><img src="assets/images/admin-student-attendance.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li><strong>Exam Marks Report</strong>- Go to <strong>Reports > Exam Marks Report</strong> to view exam marks select 
+                        <strong>Exam Name</strong>, <strong>Class</strong>, <strong>Section</strong> to see marks list.
+                        <p><img src="assets/images/exam-marks-register.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Payroll Report</strong>- Go to <strong>Student Information > Payroll Report</strong> here  you can view staff salary details report.
+                        <p><img src="assets/images/human-resource-payroll-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Staff Attendance Report</strong>- Go to <strong>Student Information > Staff Attendance Report</strong> here  you can view staff attendance report.
+                        <p><img src="assets/images/human-resource-staff-attendancereport.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Homework Report</strong>- Go to <strong>Student Information > Homework Report</strong> here  you can view student and their parent/guardian details report.
+                        <p><img src="assets/images/home-evaluation-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Student Transport Report</strong>- Go to <strong>Student Information > Student Transport Report</strong> here you can view all students list who has availed transport facility.
+                        <p><img src="assets/images/student-information-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li><strong>Student Hostel Report</strong>- Go to <strong>Student Information > Student Hostel Report</strong> here you can view all students list who has availed hostel facility.
+                        <p><img src="assets/images/student-hostel-report.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li><strong>User Log</strong>- Go to <strong>Reports > User Log</strong> to view which user has been login to Smart School system at which time, from which IP Address, OS, Browser etc.
+                        <p><img src="assets/images/admin-userlog.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    
+                </ul>
+</section>
+<!--end Reports-->
+<!--Calendar-->
+<section id="calendar"><h1 class="page-header">Calendar ToDo List</h1><hr>
+<p>This module has 2 sections -</p>
+                <ol>
+                    <li>Calendar</li>
+                    <li>ToDo List</li>                   
+                </ol>
+                <p>In Calendar we can add personal or public events can be visible under login panels. In ToDo List we can add our personal task.</p>
+                <ul>
+                    <li><strong>Calendar</strong>- Go to <strong>top right corner of page besides your profile icon you can see Calendar icon</strong> now at calendar page click on any date or time frame, at this modal window enter <strong>Event Title, Description, Event Date, Event Color</strong> and <strong>Event Type</strong> (<strong>Public</strong> is visible to all, <strong>Private</strong> is only you can see this event, <strong>All &lt;your role&gt;</strong> is this event will be visible to all users of your role, <strong>Protected</strong> that means it is visible to all staff members but not student or parent) then click on <strong>Save</strong> button.                       
+                        <p><img src="assets/images/calendar-topright.png" alt="img" class="img-responsive"/></p>
+                         <p><img src="assets/images/calendar-topright-popup.png" alt="img" class="img-responsive"/></p>
+                    </li>
+					<li><strong>ToDo List</strong>- Go to <strong>top right corner of page besides your profile icon you can see <strong>ToDo List</strong> icon, click on<strong> View All</strong> button</strong> now at calendar page right side you can see all your task click on <strong>+</strong> icon button, at this modal window enter <strong>Title</strong> and <strong>Date</strong> then click on <strong>Save</strong> button.                       
+                        <p><img src="assets/images/calendar-todolist-popup.png" alt="img" class="img-responsive"/></p>
+                    </li> 
+                    
+                </ul>
+</section>
+<!--end Calendar-->
+<!--System Settings-->
+<section id="syssettings"><h1 class="page-header">System Settings</h1><hr>
+ <p>This module has 12 sections -</p>
+                <ol>
+                    <li>General Setting</li>
+                    <li>Session Setting</li>
+                    <li>Notification Setting</li>
+                    <li>SMS Setting</li>
+                    <li>Email Setting</li>
+                    <li>Payment Methods</li>
+					<li>Front CMS Setting</li>
+					<li>Roles Permissions</li>
+                    <li>Backup / Restore</li>
+                    <li>Languages</li>
+                    <li>Users</li>
+                    <li>Modules</li>
+                </ol>
+                <p>All 12 sections of this module are mutually interdependent but need to configure to run whole system properly.</p>   
+                <ul>
+                    <li><strong>General Setting</strong>- Go to <strong>System Settings > General Setting</strong> this section has 2 parts.
+					<ol>
+					<li>Updating school profile data</li>
+					<li>Updating your school logo</li>
+					</ol>
+                    <p><img src="assets/images/system-general-setting.png" alt="img" class="img-responsive"></p>
+                        <p>For updating your school data click on <strong>Edit </strong>button (upper right side of page). On next page update your 
+                            <strong>School Name</strong>, <strong>Address</strong>, <strong>Phone</strong>, 
+                            <strong>Email</strong>, <strong>School Code</strong> (School Code is your school affiliation / accreditation no),   
+                            <strong>Session</strong> (current running Academic Session for the school), 
+                            <strong>Session Start Month</strong>, <strong>Teacher Restricted Mode</strong> (if this Teacher Restricted Mode feature is Enabled then teachers will not have access to all students data, that means class teachers can access their allotted class whole data and subject teachers can access for only those classes student data for which they have assigned as subject teacher), <strong>Language</strong> (Language in which you want to run your Smart School), 
+                            <strong>Language RTL Text Mode</strong> (for Arabian side languages), <strong>Timezone</strong>, <strong>Date Format</strong>, <strong>Currency</strong> (ISO standard 3 digit currency code), <strong>Currency Symbol</strong> and <strong>Fees Due Days</strong> (used in Fees Carry Forward), <b>Mobile App Api URL</b> (used for Smart School mobile app api url), <b>Mobile App Primary Color Code</b> (used for mobile app primary color) and <b>Mobile App Secondary Color Code</b> (used for mobile app secondary color) then select <strong>Current Theme</strong> now click on <strong>Save</strong> button to update record.</p>
+                        <p><img src="assets/images/admin-schsettings.png" alt="img" class="img-responsive"></p>
+                        <p>For updating your school logo go to <strong>System Settings > General Setting</strong> in lower left side click on 
+                            <strong>Edit Logo</strong> button. Now drag and drop or select your logo file. By clicking on <strong>Edit Mobile App  Logo</strong> you can set logo for mobile app.</p>    
+                    </li>
+                    <li>
+                        <strong>Session Setting</strong>- Go to <strong>System Settings > Session Setting</strong> in Smart School by default you get 15 years of Sessions data from 2015-16 to 2029-30 but still you want to add more sessions then enter 
+                        <strong>Session</strong> (must be in format like 2015-16, 2016-17 etc.) & click 
+                        <strong>Save</strong> button. All the sessions can be see right side of page.
+                        <p><img src="assets/images/system-session-settings.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li>
+                    <strong>Notification Setting</strong>- Go to <strong>System Settings > Notification Setting</strong> in Smart School there are 5 events <strong>Student Admission, Exam Result, Fees Submission, Absent Student</strong> and <strong>Login Credential</strong> where automated Email / SMS / Mobile App are sending to concerning person's email / mobile number. To control, when email / sms notifications will be send use <strong>Notification Setting</strong>.
+                    <p>Check the following at which event, which person receive notification  </p>
+                    <ul>
+                    <li><strong>Student Admission:</strong> Guardian</li>
+                    <li><strong>Exam Result:</strong> Student</li>
+                    <li><strong>Fees Submission:</strong> Guardian</li>
+                    <li><strong>Absent Student:</strong> Guardian</li>
+                    <li><strong>Login Credential:</strong> Student, Guardian, Teacher, Accountant, Librarian</li>
+                   
+                    </ul>
+                    <p><img src="assets/images/admin-notification-setting.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li>
+                        <strong>SMS Setting</strong>- Go to <strong>System Settings > SMS Setting</strong> for SMS notifications to student, guardian and other users you must have to add SMS Gateway details in Smart School. Add <strong>Clickatell</strong>, <strong>Twilio</strong>, <strong>MSG91</strong>, <strong>Text Local</strong>, <strong>SMS Country</strong> or <strong>Twilio</strong> SMS Gateway with the required details. You can add multiple sms gateways but only one can be enable at a time. You can also add any other http api based sms gateways too through Custom SMS Gateway but it need to configure SMS Library in source code and require PHP coding skills. Through this you can add any SMS Gateway which supports http based api.
+                                   <p><img src="assets/images/system-sms-settings.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/twilio-sms-gateway.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/admin-smsconfig-msg91.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/admin-smsconfig-textlocal.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/admin-smsconfig-smscountry.png" alt="img" class="img-responsive"></p>
+<p><img src="assets/images/admin-smsconfig-sms-gateway.png" alt="img" class="img-responsive"></p>
+                    </li>
+                    <li>
+                        <strong>Email Setting</strong>- Go to <strong>System Settings > Email Setting</strong> To send emails from Smart School you need to configure Email Setting. Currently Email is available for SendMail and SMTP delivery engine. 
+                        <p>Select SendMail email engine to send emails through your Hosting SendMail program.</p>
+                        <p>Select SMTP email engine to send email using any SMTP relay. You can use gmail smtp relay also by adding any gmail account details but your gmail account also seto for less secure device so SMTP engine can send email using gmail smtp relay.</p>
+                        Enter
+                        <strong>SMTP Username</strong>, <strong>SMTP Password</strong>, <strong>SMTP Server</strong> SMTP Port, SMTP Security and finally click on <strong>Save</strong> button to save your settings.
+
+                        <p><img src="assets/images/admin-emailconfig-sendmail.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/admin-emailconfig-smtp.png" alt="img" class="img-responsive"></p>
+
+                    </li>         
+                    <li>
+                        <strong>Payment Methods</strong>- Go to <strong>System Settings > Payment Methods</strong> there are 4 payment gateways <strong>Paypal, Stripe, PayU</strong> and <strong>CCAvenue</strong> available in Smart School. For enabling parents/guardian to pay their children fees payment online through Parent Panel then you must have to enter and enable any one of payment gateway. You can add multiple payment gateways details but you can enable only one at a time. Add your payment gateway account details in required fields, then enable that payment gateway.
+                        <p><img src="assets/images/admin-paymentsettings-paypal.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/admin-paymentsettings-stripe.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/admin-paymentsettings-payu.png" alt="img" class="img-responsive"></p>
+                        <p><img src="assets/images/admin-paymentsettings-CCAvenue.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li>
+                        <strong>Front CMS Setting</strong>- Go to <strong>System Settings > Front CMS Setting</strong> here we can <strong>enable/disable Front CMS, Sidebar, Language RTL Text Mode, check Sidebar Option, upload Logo, Favicon, enter Footer Text, Google Analytics, Facebook URL, Twitter URL, Youtube URL, Google Plus, Linkedin URL, Instagram URL, Pinterest URL and Current Theme</strong> (there are 3 default themes supplied with Smart School but you can create your own theme by copying "default" theme with your own name in same folder. For themes /application/views/themes contains php view files and /backend/themes folder contains css, js, images etc. files).
+                        <p><img src="assets/images/front-cms-settings.png" alt="img" class="img-responsive"></p>
+                    </li>
+					<li>
+                        <strong>Roles Permissions</strong>- Go to <strong>System Settings > Roles Permissions</strong> here we can create different Roles for staff users and then assign different user permission to this Role. To add new role enter Role Name then click on Save button all existing roles can be see from right side of this page. By default in Smart School you will get 6 user roles <strong>SuperAdmin, Admin, Teacher, Accountant, Librarian, Receptionist</strong>. You can edit name or permission of these roles except SuperAdmin. To assign permission click on <strong>Assign Permission</strong> button from <strong>Action</strong> column. At this page you can see Module wise different Features and their different Permissions. Carefully assign different permissions on roles. After assigning permission, check where it is effecting in system. There are 4 types of permissions present here <strong>View, Add, Edit and Delete</strong>. Here note that <strong>if you are assigning Add/Edit or Delete permission then View permission should be given obviously</strong> if you have not given View permission then system can behave inconsistent so in best practice if you are giving Add/Edit/Delete any one permission then give View permission too.
+                        <p><img src="assets/images/front-roles-permissions.png" alt="img" class="img-responsive"></p>
+                    </li>					
+                    <li>
+                        <strong>Backup/Restore</strong>- Go to <strong>System Settings > Backup/Restore</strong> for taking backup of your Smart School database click on 
+                        <strong>Create Backup</strong> button it will create a .sql file you can 
+                        <strong>Download</strong> it on your local system or <strong>Restore</strong> back in your system or 
+                        <strong> Delete</strong> backup file. You can also Restore database file from local system click on 
+                        <strong>Choose File</strong> select .sql file from your local system then click on 
+                        <strong>Upload</strong> button.
+						<p><img src="assets/images/system-backup-restore-create.png" alt="img" class="img-responsive"></p>
+						
+						If you want to use auto backup feature of Smart School then you should configure <strong>Cron</strong> settings on your hosting server for corn url <strong>http://yourdomain/smartschool/cron/autobackup/&lt;your-cron-secret-key&gt;</strong> . To generate/regenerate your cron secret key simply click on <strong>Generate/Regenerate</strong> button under <strong>Cron Secret Key</strong> section. To view existing cron secret key click on <strong>eye</strong> icon button.
+                        <p><img src="assets/images/system-backup-restore.png" alt="img" class="img-responsive"></p>
+						
+						<strong>Setup cPanel Cron Job -</strong>
+						
+						Login to your cPanel and navigate to <strong>Cron</strong> jobs, add the following settings :
+						<p><img src="assets/images/system-backup-cronjob.png" alt="img" class="img-responsive"></p>
+						wget -q -O- http://yourdomain/smartschool/<your-cron-secret-key>
+						Change the URL according to your base URL.
+						
+						You can also use some free cron job service like https://www.easycron.com. Mostly the free cron job services have a limit to execute every 20 minutes but it will work well too with Smart School auto backup.
+						
+						
+                    </li>  
+                    <li><strong>Languages</strong>- Go to <strong>Systems Settings > Languages</strong> since ver. 4.0.0 Smart School langauge module has been migrated to file based languages for better performance and easy to manage. To change language key phrases, go your language directory e.g. for <strong>English</strong> language go to edit file <strong>/application/language/English/app_files/system_lang.php</strong> . Where as <strong>/application/language/English/form_validation_lang.php</strong> file is used for validation message text. Below you can find the list of all 73 languages. </li></ul>
+                <ol style="padding-left: 30px;padding-top: 10px;">
+                    <li>Afrikaans</li>
+                    <li>Albanian</li> 
+                    <li>Amharic</li>
+                    <li>Arabic  </li>
+                    <li>Azerbaijan  </li>
+                    <li>Basque  </li>
+                    <li>Bengali </li>
+                    <li>Bosnian </li>
+                    <li>Catalan </li>
+                    <li>Cebuano </li>
+                    <li>Chinese </li>
+                    <li>Czech </li>
+                    <li>Danish  </li>
+                    <li>Dutch </li>
+                    <li>English</li>
+                    <li>Esperanto </li>
+                    <li>Estonian  </li>
+                    <li>Finnish </li>
+                    <li>French  </li>
+                    <li>Galician  </li>
+                    <li>Georgian  </li>
+                    <li>German  </li>
+                    <li>Greek </li>
+                    <li>Gujarati  </li>
+                    <li>Haitian (Creole)</li> 
+                    <li>Hebrew  </li>
+                    <li>Hindi </li>
+                    <li>Hungarian </li>
+                    <li>Icelandic </li>
+                    <li>Indonesian  </li>
+                    <li>Irish </li>
+                    <li>Italian </li>
+                    <li>Japanese  </li>
+                    <li>Javanese  </li>
+                    <li>Kannada </li>
+                    <li>Korean  </li>
+                    <li>Latin</li>
+                    <li>Latvian </li>
+                    <li>Lithuanian  </li>
+                    <li>Macedonian  </li>
+                    <li>Malagasy  </li>
+                    <li>Malay </li>
+                    <li>Malayalam </li>
+                    <li>Maltese </li>
+                    <li>Maori </li>
+                    <li>Marathi </li>
+                    <li>Mongolian </li>
+                    <li>Nepali  </li>
+                    <li>Norwegian </li>
+                    <li>Persian </li>
+                    <li>Portuguese  </li>
+                    <li>Punjabi </li>
+                    <li>Romanian  </li>
+                    <li>Russian </li>
+                    <li>Scottish  </li>
+                    <li>Sinhala </li>
+                    <li>Slovakian </li>
+                    <li>Slovenian </li>
+                    <li>Spanish </li>
+                    <li>Sundanese </li>
+                    <li>Swahili </li>
+                    <li>Swedish </li>
+                    <li>Tagalog </li>
+                    <li>Tamil </li>
+                    <li>Telugu  </li>
+                    <li>Thai  </li>
+                    <li>Turkish </li>
+                    <li>Urdu  </li>
+                    <li>Uzbek </li>
+                    <li>Vietnamese  </li>
+                    <li>Welsh </li>
+                    <li>Xhosa </li>
+                    <li>Yiddish</li>
+                </ol>
+                <br>
+
+                <ul>
+                    <li>
+                        For adding new languages click on 
+                        <strong>Add</strong> button from top right side of page on next page enter your 
+                        <strong>Language Name</strong> & click <strong>Save</strong> button. Active language can also be select from 
+                        <strong>System Settings > General Setting</strong>.
+                        <p><img src="assets/images/system-languages.png" alt="img" class="img-responsive"></p>
+                    </li></ul>
+                <ul>
+                    <li>
+                        <strong>Users</strong>- Go to <strong>System Settings > Users</strong> All the users like Student, Parent and Staff can be see here and you can enable or disable them from login to User Panel. To enable or disable user click on <strong>toggle</strong> button in <strong>Action</strong> column.
+                        <p><img src="assets/images/system-users.png" alt="img" class="img-responsive"></p>    
+                    </li>  
+                </ul> 
+                <ul>
+                    <li>
+                        <strong>Modules</strong>- Go to <strong>System Settings > Modules</strong> Smart School comes with 25+ modules but there are 16 modules available to enable/disable from whole system. Disabling any module will be disabled from Admin/Student and Parent panel at once it works over Roles Permission module so even you have given permission for module but after disabling module will be disabled from whole system. To enable/disable simply click on toggle button present in Action column. 
+                        <p><img src="assets/images/setting-modules.png" alt="img" class="img-responsive"></p>    
+                    </li>  
+                </ul>           
+
+   
+   
+</section>
+<!--end System Settings-->
+
+<!--Student Panel-->
+<section id="studentpanel"><h1 class="page-header">Student Panel</h1><hr>
+  <P>Login to Student Panel through URL <strong>http://yourdomain/site/userlogin</strong>. Student Panel has 11 sections -</P>
+                <ol>
+                    <li><strong>My Profile</strong></li>
+					<li><strong>Fees</strong></li>
+                    <li><strong>Class Timetable</strong></li>
+					<li><strong>Homework</strong></li>
+                    <li><strong>Download Center</strong></li>
+                    <li><strong>Attendance</strong></li>
+                    <li><strong>Examinations</strong></li>
+                    <li><strong>Notice Board</strong></li>
+                    <li><strong>Subjects</strong></li>
+                    <li><strong>Teachers</strong></li>
+                    <li><strong>Library Books</strong></li>
+                    <li><strong>Transport Routes</strong></li>
+                    <li><strong>Hostel Rooms</strong></li>                    
+                </ol>
+                <br/>
+                <ul>
+                    <li><strong>My Profile</strong>- after login student can see their complete profile including fees, exams & documents
+                        <p><img src="assets/images/student-myprofile.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Fees</strong>- student can see their fees details and if online payment gateway is enabled then student can pay their online fees from here.
+                        <p><img src="assets/images/student-fees.png" alt="img" class="img-responsive"/></p>
+                    </li>					
+                    <li><strong>Class Timetable</strong>- student can see their weekly class timetable here
+                        <p><img src="assets/images/student-class-timetable-.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Homework</strong>- student can see their class homework here
+                        <p><img src="assets/images/student-homework.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Download Center</strong>- student can download Assignments, Study Material, Syllabus & Other Download content here
+                        <p><img src="assets/images/student-download-center.png" alt="img" class="img-responsive"/></p>
+                    </li>                     				
+                    <li><strong>Attendance</strong>- student can see their monthly attendance here
+                        <p><img src="assets/images/student-attendance.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Examination > Report Card</strong>- student can see their exam marks here
+                        <p><img src="assets/images/student-report-card.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Examination > Exam Schedule</strong>- student can see their exam schedule here
+                        <p><img src="assets/images/student-exam-schedule.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Notice Board</strong>- student can see their messages sent by Admin & Teachers
+                        <p><img src="assets/images/student-notice-board.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Subjects</strong>- student can see their study subjects here
+                        <p><img src="assets/images/student-subject.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Teachers</strong>- student can see all teachers list here
+                        <p><img src="assets/images/student-teacher.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Library > Books</strong>- student can see all books & their status here
+                        <p><img src="assets/images/student-library-books.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Library > Book Issued</strong>- student can see all their issued books & their status here
+                        <p><img src="assets/images/student-libary-book-issue.png" alt="img" class="img-responsive"/></p></li>
+                    <li><strong>Transport Routes</strong>- student can see all transport routes list here
+                        <p><img src="assets/images/student-transport-routes.png" alt="img" class="img-responsive"/></p>
+                        <p><img src="assets/images/student-transport-routes-click.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                    <li><strong>Hostel Rooms</strong>- student can see all hostel rooms details here
+                        <p><img src="assets/images/student-hostel-rooms.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ul>
+</section>
+<!--end Student Panel-->
+
+<!--Parent Panel-->
+<section id="parentpanel"><h1 class="page-header">Parent Panel</h1><hr>
+  <P>Login to Parent Panel through URL <strong>http://yourdomain/site/userlogin</strong>. Parent Panel is similar to student panel but with one differences listed below-</P>
+                <ol>
+                    <li>Parent can see their all children details at once in their Parent Panel
+					<p><img src="assets/images/parent-panel.png" alt="img" class="img-responsive"/></p>
+                    </li>
+                </ol>
+</section>
+<!--end Parent Panel-->
+
+<!--License-->
+<section id="license"><h1 class="page-header">License</h1><hr>
+  <P>Smart School does not require to enter Envato Market Purchase Code at time of installation but after installation enter your <strong>Envato Market Purchase Code</strong> with your <strong>Email address</strong> registered with Envato in <strong>Admin Panel</strong>. After verify your Envato Market Purchase Code admin panel alert message will disappear and your Envato Market Purchase Code will be registered. Envato Market Purchase Code verification process requires internet connection on your server machine. If you don't have internet connection on your server machine then contact to our customer support for offline verification.</P>
+  <p><img src="assets/images/license-panel.png" alt="img" class="img-responsive"/></p>
+                
+</section>
+<!--end License-->
+
+<!--Changelog-->
+<section id="changelog">
+<h1 class="page-header">Smart School Changelog for Maintenance version 4.2.0</h1><hr>
+                <h5><strong>Version 4.2.0</strong></h5>
+                <p>Released Date: 5 April, 2019</p>               
+                <p><strong>Features Enhancement</strong></p>
+                <ul>
+                    <li>Added support for Android and iOS mobile apps
+                    </li>
+                </ul>
+                <p><strong>Bug Fixes</strong></p>
+                <ul>
+                    <li>SMS gateway library issue</li>
+                    <li>Student timeline attachment issue</li>
+					<li>Librarian login "Issue Return" menu missing</li>
+					<li>Student attendance report Half Day column shift issue</li>
+					<li>Student History is not showing records due to categories issue</li>
+					<li>Email does not support Unicode characters or unreadable</li>
+					<li>Transaction report showing wrong calculation</li>
+					<li>Student Panel > Student Profile > Upload Document issue</li>
+					<li>Staff add image path issue</li>
+					<li>Many design issues</li>
+                </ul>
+</section>
+<!--end Changelog-->
+
+<!--Free Support-->
+<section id="freesupp"><h1 class="page-header">Free Help & Support</h1><hr>
+  <p>All of our items come with free support, and we have a <strong>Dedicated 
+                                        Support Ticket System</strong> to handle your requests. Support is limited to questions regarding the code features, bugs or problems with the application. We are not able to provide support for code customizations or third-party plugins. If you need help with anything other than minor customizations of your code then you should enlist the help of a developer or our customization service.</p>
+                                <i>Please mention your <B>Codecanyon Purchase Code</B> with your support ticket.</i>  
+                                <p><a href="http://support.qdocs.in" class="button button-primary button-hero">Go to Support Portal</a></p>
+</section>
+<!--End free support-->
+
+<!--Thanks-->
+<section>
+   <h3>Thank you once again for the purchase!</h3><hr>
+                                <p>Once again, thank you to trust on Smart School. We will be glad to help you if you have any questions relating to this application. No guarantees, but we will do best to assist.</p>
+                                <h5 class="alert"><i>Please if you like this Smart School, please do not forget to rate us 5 Star at Codecanyon</i></h5>
+                                <h5 style="color:#1e8cbe;"><b>QDOCS Team</b></h5>
+                                <div style="padding-top:70px;"></div>
+</section>
+<!--Thanks-->
+
+        </div><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <footer class="main-footer">
+        <strong>Copyright © 2019 <a href="http://qdocs.in/" target="_blank">QDOCS</a></a> 
+      </footer>
+
+      
+
+    </div><!-- ./wrapper -->
+<a class="scrool-top" href="javascript:void(0)"><i class="fa fa-angle-up"></i></a> 
+    <!-- jQuery 2.2.3 -->
+    <script src="assets/js/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="assets/js/bootstrap.min.js"></script>
+     <script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+     <!-- FastClick -->
+    <script src="assets/js/fastclick.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="assets/js/app.min.js"></script>
+    <!-- SlimScroll 1.3.0 -->
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+  
+    <script src="assets/js/docs.js"></script>
+    <script src="assets/js/jquery.singlePageNav.min.js"></script>
+  </body>
+</html>
